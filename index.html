@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Portfolj webbsida av Ion Rosgrim"/>
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200i,300,400,600|Vidaloka"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Webbutvecklings Portfolj</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header id="header_menu" class="big_header">
+        <div class="bubble" id="bubble"><h2 id="tooltip_text"></h2></div>
+        <nav>
+          <div class="projekt" id="projekt" data-title="projekt">
+            <a href="#projekt_section">
+              <img src="imgs/projekt.svg" alt="projekt menu button"
+            /></a>
+          </div>
+          <div class="om-mig" id="kompetens" data-title="om mig">
+            <a href="#ommig_section">
+              <img src="imgs/about-me.svg" alt="kompetens menu button"
+            /></a>
+          </div>
+          <div class="kontakt" id="kontakt" data-title="kontakt">
+            <a href="#kontakt_section">
+              <img src="imgs/kontakt.svg" alt="kontakt menu button"
+            /></a>
+          </div>
+        </nav>
+      </header>
+    <header id="mobile_header_menu" class="mobile_header">
+      <nav>
+          <div class="projekt" id="projekt_mobile" data-title="projekt">
+            <a href="#projekt_section">
+              Projekt</a>
+          </div>
+          <div class="om-mig" id="kompetens_mobile" data-title="om mig">
+            <a href="#ommig_section">
+              Om mig</a>
+          </div>
+          <div class="kontakt" id="kontakt_mobile" data-title="kontakt">
+            <a href="#kontakt_section">
+              Kontakt</a>
+          </div>
+        </nav>
+      </header>
+      <main id="main_container">
+          <a id="main_section">&nbsp;</a>
+        <h2>Kompetens</h2>
+        <section class="three_columns">
+          <article class="card">
+            <h3>Kommunikation</h3>
+            <p>
+                Jag gillar att <strong>ställa frågor</strong> och jag försöker förstå alla aspekter av ett problem. 
+                <strong>Kommunikation</strong> är nyckeln till framgångsrik utveckling.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Utveckling</h3>
+            <p>
+                I datorutvecklingsvärlden stoppar utbildningen aldrig. Min kunskapshunger är det som driver
+                 mig att bli bättre varje dag. <br>
+                 <strong>JavaScript, HTML</strong> och <strong>CSS</strong> är bara några av de viktigaste verktygen 
+                 jag använder varje dag.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Design</h3>
+            <p>
+                Att rita, skissa och förstå förhållandet mellan <strong>former</strong> och <strong>kontrast</strong> är 
+                min andra natur och en färdighet som jag ägnar mer än <strong>20 år</strong>.
+            </p>
+          </article>
+        </section>
+
+        <section>
+            <a id="projekt_section">&nbsp;</a>
+          <h2 class="blood">Senaste projekt</h2>
+          <small>rulla över för detaljer</small>
+          <figure class="projekt_frame">
+            <img src="imgs/4.png" alt="projekt one" />
+
+            <div class="info">
+              <h4>WordPress tema</h4>
+              <p>Tredje uppgift för webbutvecklingskursen.</p> <br><br>
+              <h4>Gjord med</h4>
+              <ul>
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+          </figure>
+
+          <figure
+            class="projekt_frame"
+            data-description="this is a description"
+          >
+            <img src="imgs/3.png" alt="projekt two" />
+            <div class="info">
+              <h4>Code snippets</h4>
+              <p>
+                  Webapp för att spara kodfragment i en Json fil.
+                  </p> <br><br>
+                  <h4>Gjord med</h4>
+                <ul>
+                  <li>HTML</li>
+                  <li>JavaScript</li>
+                  <li>CSS</li>
+                </ul>
+              </p>
+            </div>
+          </figure>
+
+          <figure
+            class="projekt_frame"
+            data-description="this is a description"
+          >
+            <img src="imgs/2.png" alt="projekt two" />
+            <div class="info">
+              <h4>Webbsida Om mig</h4>
+                <p>Det första projektet jag gjorde för webbutvecklingskursen.</p> <br> <br>
+                <h4>Gjord med</h4>
+                <ul>
+                  <li>HTML</li>
+                  <li>JavaScript</li>
+                  <li>CSS</li>
+                </ul>
+            </div>
+          </figure>
+
+          <figure
+            class="projekt_frame"
+          >
+            <img src="imgs/1.png" alt="projekt two" />
+            <div class="info">
+              <h4>Internets historia</h4>
+              <p>Enkel webbsida om Internets historia och samhällets påverkan.</p> <br> <br>
+              <h4>Gjord med</h4>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+              </ul>
+            </div>
+          </figure>
+
+          <figure
+            class="projekt_frame"
+          >
+            <img src="imgs/0.png" alt="projekt two" />
+            <div class="info">
+              <br>
+                <h4>Todo webbapp</h4>
+                <p>
+                  Sidprojekt <br><br>
+                </p>
+                <h4>Gjord med</h4>
+                  <ul>
+                    <li>HTML</li>
+                    <li>JavaScript</li>
+                    <li>CSS</li>
+                    <li>"lokal storage" FÖR DATALAGRING</li>
+                  </ul>
+                </div>
+              
+          </figure>
+
+          <figure
+            class="projekt_frame"
+          >
+            <img src="imgs/portfolio.png" alt="projekt two" />
+            <div class="info">
+                <h4>Bildportfölj webbsida</h4> 
+                <p>
+                  Konst och tatueringar webbsida. <br> 
+                  Personlig bildportfölj.
+                </p> <br><br>
+                <h4>Gjord med</h4>
+                  <ul>
+                    <li>HTML</li>
+                    <li>JavaScript</li>
+                    <li>CSS</li>
+                  </ul>
+                </div>
+              
+          </figure>
+        </section>
+        <section >
+            <a id="ommig_section">&nbsp;</a>
+          <h2 class="blood">Om mig</h2>
+            <figure class="persona">
+            </figure>
+            <p class="title">
+              Front-End developer <br>
+              <span class="blood">Designer</span>
+            </p>
+            <section class="two_columns">
+              <article class="card">
+                <h3>Om mig</h3>
+                  <p>Passionerad och dedikerad <strong>Front-End utvecklare, UI / UX designare</strong> med höga kunskaper 
+                    i problemlösning, visuell UI-design, UX-design, användarcentrerade designprinciper och metoder, 
+                    <strong>produktutveckling</strong> och <strong>front-end-utveckling</strong>.
+                  </p>
+            </article>
+
+            <article class="card">
+              <h3>Om mit jobb</h3>
+                <p>Även om jag huvudsakligen fokuserar på <strong>HTML, CSS</strong> och <strong>JavaScript</strong>, är jag 
+                  mycket bekant med andra verktyg som jag använder regelbundet eller från tid till 
+                  annan: <strong>HTML5, CSS, JavaScript, NodeJs, MySql, PHP, VueJs, MongoDB</strong>. Listan är 
+                  omfattande och jag experimenterar alltid med ny teknik.
+                </p>
+                </article>
+          </section>
+          <section class="programming_icons">
+              <h3 class="blood">Några av de verktyg jag använder</h3>
+              <figure>
+                <img src="imgs/programming_icons/htmlicon.png" alt="html5 icon">
+                <img src="imgs/programming_icons/cssicon.png" alt="css icon">
+                <img src="imgs/programming_icons/jsicon.png" alt="javascript icon">
+                <img src="imgs/programming_icons/nodejsicon.png" alt="nodejs icon">
+                <img src="imgs/programming_icons/mysqlicon.png" alt="mysql icon">
+                <img src="imgs/programming_icons/phpicon.png" alt="php icon">
+                <img src="imgs/programming_icons/vuejsicon.png" alt="vuejs icon">
+                <img src="imgs/programming_icons/mongodbicon.png" alt="mongodb icon">
+              </figure>
+            </section>
+        </section>
+
+        <section>
+            <a id="kontakt_section">&nbsp;</a>
+          <h2 class="blood">Kontakt</h2>
+          <section class="two_columns">
+          <article class="card">
+              <p>
+                  För frågor, feedback eller arbetsförfrågan kan du skicka mig ett meddelande.
+                  
+                <form action="">
+                    <div class="frame">
+                  <label for="name">Namn:</label>
+                  <input type="text" name="name" aria-required="true" required minlength="3" maxlength="20" size="40" aria-label="name input"> 
+                  <label for="email">Email:</label>
+                  <input type="email" name="email" aria-required="true" required aria-label="email input" size="40"> 
+                  <label for="message">Meddelde:</label>
+                  <textarea name="message" id="message" cols="40" rows="10" aria-required="true" required>
+                  </textarea>
+                </div>
+                  <div class="button"><button name="send">Skicka</button></div>
+                </form>
+          </article>
+          <article class="card">
+              <p>
+                  <ul>
+                    <li><strong>Webbsida:</strong> https://www.tattoosbyion.com</li>
+                    <li><strong>GitHub:</strong> https://github.com/irosgrim</li>
+                    <li><strong>Instagram:</strong> ionrosgrim</li>
+                 
+                  </ul>
+                </p>
+              
+            </article>
+        </section>
+        
+        </section>
+      </main>
+      <figure><img src="imgs/mountains.svg" alt="mountains" class="mountains"></figure>
+      <footer>
+        <p>Några av de ikoner som jag använde på min hemsida skapades av <a href="https://thenounproject.com/" class="blood"> The Noun Projekt</a></p>
+        <p>Copyright &copy;2019 Ion Rosgrim</p>
+      </footer>
+    </div>
+
+    <script src="app/app.js"></script>
+  </body>
+</html>
