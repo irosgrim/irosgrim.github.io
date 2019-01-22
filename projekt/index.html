@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Mat affär webbsida" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>Eat Better - mat affär</title>
+  </head>
+  <body>
+    <header>
+      <div class="column"><img src="imgs/logo.svg" alt="" class="logo" /></div>
+
+      <div class="column search-nav">
+        <form action="">
+          <input type="text" aria-label="search field" />
+          <button>
+            <img src="imgs/search-icon.svg" alt="search button" />
+          </button>
+        </form>
+        <nav class="user-nav">
+          <p class="light">
+            Hej <span id="user-name" class="dark"> Ion </span>
+          </p>
+          <span id="user-icon" class="nav-icon">
+            <img src="imgs/user-icon.svg" alt="user button" />
+          </span>
+          <span id="cart-icon" class="nav-icon">
+            <img src="imgs/cart-icon.svg" alt="cart button" />
+          </span>
+        </nav>
+      </div>
+    </header>
+    <div id="user-menu-frame" class="user-menu">
+      <header>
+        <img
+          src="imgs/x-icon.svg"
+          alt="close button"
+          id="close-btn"
+          class="close-btn"
+        />
+      </header>
+      <div id="user-content" class="user-content"></div>
+    </div>
+    <nav class="food-menu">
+      <div class="menu-item">
+        <img
+          src="imgs/groceries-icon.svg"
+          alt="groceries button"
+          class="menu-type"
+        />
+        <p>matvaror</p>
+      </div>
+      <div class="menu-item">
+        <img
+          src="imgs/weightwatch-icon.svg"
+          alt="weight watch button"
+          class="menu-type"
+        />
+        <p>viktvakt</p>
+      </div>
+      <div class="menu-item">
+        <img
+          src="imgs/vegetarian-icon.svg"
+          alt="vegetarian button"
+          class="menu-type"
+        />
+        <p>vegetarisk</p>
+      </div>
+      <div class="menu-item">
+        <img
+          src="imgs/anything-icon.svg"
+          alt="anything button"
+          class="menu-type"
+        />
+        <p>allt</p>
+      </div>
+      <div class="menu-item">
+        <img src="imgs/vegan-icon.svg" alt="vegan button" class="menu-type" />
+        <p>vegansk</p>
+      </div>
+    </nav>
+
+    <main>
+      <section>
+        <h3>
+          Dagens Recept
+          <span class="link"><a href="#" class="link">mer</a></span>
+        </h3>
+        <div class="flex-container">
+          <div class="recipe">
+            <img
+              src="https:///source.unsplash.com/qp7WA8AV2x0/300x200"
+              alt=""
+              class="featured-dish"
+            />
+            <p>Pannkakor</p>
+          </div>
+
+          <div class="recipe">
+            <img
+              src="https:///source.unsplash.com/RwoKbjJdYvE/300x200"
+              alt=""
+              class="featured-dish"
+            />
+            <p>Ägg och korv</p>
+          </div>
+
+          <div class="recipe">
+            <img
+              src="https:///source.unsplash.com/-0gya0UbwPs/300x200"
+              alt=""
+              class="featured-dish"
+            />
+            <p>Havregryn och mjölk</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h3>
+          Fynd <span class="link"><a href="#" class="link">mer</a></span>
+        </h3>
+        <div class="flex-container">
+          <div class="product">
+            <img
+              src="https:///source.unsplash.com/paz5CWdB2ys/300x200"
+              alt="slush"
+            />
+            <div class="product-info">
+              <div class="column">
+                <p class="product-name">Slush</p>
+                <p class="product-price thick">25 kr / 200ml</p>
+              </div>
+              <div class="column product-amount">
+                <input
+                  type="number"
+                  min="0"
+                  max="10"
+                  maxlength="2"
+                  autocomplete="off"
+                  aria-label="amount field"
+                />
+                <button><img src="imgs/check-icon.svg" alt="check" /></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product">
+            <img
+              src="https:///source.unsplash.com/U4YdDVliDlA/300x200"
+              alt="onions"
+            />
+            <div class="product-info">
+              <div class="column">
+                <p class="product-name">Lök</p>
+                <p class="product-price thick">9.95 kr / kg</p>
+              </div>
+              <div class="column product-amount">
+                <input
+                  type="number"
+                  min="0"
+                  max="10"
+                  maxlength="2"
+                  autocomplete="off"
+                  aria-label="amount field"
+                />
+                <button><img src="imgs/check-icon.svg" alt="check" /></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product">
+            <img
+              src="https:///source.unsplash.com/hXaHghBkEMQ/300x200"
+              alt="pears"
+            />
+            <div class="product-info">
+              <div class="column">
+                <p class="product-name">Päron</p>
+                <p class="product-price thick">67 kr / kg</p>
+              </div>
+              <div class="column product-amount">
+                <input
+                  type="number"
+                  min="0"
+                  max="10"
+                  maxlength="2"
+                  autocomplete="off"
+                  aria-label="amount field"
+                />
+                <button><img src="imgs/check-icon.svg" alt="check" /></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <li><a href="#">Vem Är Vi</a></li>
+        <li><a href="#">Kontakta Oss</a></li>
+        <li><a href="#">Hjälp</a></li>
+        <li><a href="#">Disclaimer</a></li>
+      </ul>
+      <div class="copyright">
+        <p>&copy; 2019 Eat<span class="thick">Better </span></p>
+        <span>
+          <img src="imgs/leaf-icon.svg" alt="leaf" class="small-logo" />
+        </span>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
