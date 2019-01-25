@@ -1,7 +1,17 @@
+//////////////////////////////////
+//  By Ion Rosgrim
+//  Webbutveckling 2, Uppdrag 3
+//  Calculator V1
+//  https://github.com/irosgrim
+//  February, 2019
+/////////////////////////////////
+
 // global variables/constants
 // DOM queries
+
 const display = document.getElementById('display');
 const equalsButton = document.getElementById('equals');
+
 // query all the buttons
 const buttonsArray = document.querySelectorAll('.button');
 
@@ -75,7 +85,7 @@ buttonsArray.forEach(element => {
       if (element.dataset.operator === 'plus-minus' && firstNumber != '') {
         display.innerText = eval(totalString * -1);
         totalString = display.innerText;
-        firstNumber = '';
+        firstNumber = 'display.innerText';
       }
     });
   }

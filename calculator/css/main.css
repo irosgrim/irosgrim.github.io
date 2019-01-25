@@ -1,8 +1,25 @@
+/*
+By Ion Rosgrim
+Webbutveckling 2, Uppdrag 3
+Miniräknare och Calculator V2
+https://github.com/irosgrim
+January, 2019
+*/
+
+/* 
+Reset the default borders and paddings, and making sure the elements size
+is not influenced by padding and margin
+*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* 
+google font
+*/
 
 html {
     font-family: 'Nunito', sans-serif;
@@ -10,6 +27,10 @@ html {
     font-weight: 400;
     color: #ffffff;
 }
+
+/*
+headings
+*/
 
 h1, h2, h3, p {
     color: #000000;
@@ -24,6 +45,10 @@ h2 {
 h3 {
     margin-top: 50px;
 }
+
+/*
+result box
+*/
 
 .popup {
     position: absolute;
@@ -41,8 +66,13 @@ header {
     text-align: center;
 }
 
+/*
+mini calculator body
+*/
+
 header .mini {
-    width: 50%;
+    min-width: 50%;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -50,27 +80,54 @@ header .mini {
     margin-right: auto;
 }
 
+/*
+number inputs
+*/
+
 .mini input {
-    width: 100px;
+    min-width: 50px;
     height: 30px;
     font-size: 1rem;
 }
+
+/*
+calculate button
+*/
 
 .mini button {
     height: 30px;
-    width: 60px;
+    width: 70px;
     margin-left: 5px;
 }
 
+/*
+operator select
+*/
+
 .mini select {
     height: 30px;
-    width: 50px;
+    min-width: 70px;
     font-size: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 0.5rem;
+    padding-right: 1.5rem;
+    border: 1px solid #cccccc;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-position: right 50%;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAYAAABSgIzaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDZFNDEwNjlGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDZFNDEwNkFGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NkU0MTA2N0Y3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0NkU0MTA2OEY3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PuGsgwQAAAA5SURBVHjaYvz//z8DOYCJgUxAf42MQIzTk0D/M+KzkRGPoQSdykiKJrBGpOhgJFYTWNEIiEeAAAMAzNENEOH+do8AAAAASUVORK5CYII=);
 }
 
-.op {
+#op {
     color: #000000;
+    border-radius: 0;
 }
+
+/*
+calculator V2  body 
+*/
 
 main {
     width: 240px;
@@ -87,16 +144,36 @@ main {
     overflow: hidden;
     border-bottom: 3px solid #219A90;
     text-align: right;
-    font-size: 48px;
     font-weight: 200;
-    padding: 25px 10px 0 5px;
+    padding: 10px 10px 0 5px;
 }
+
+.small {
+    overflow: hidden;
+    font-size: 0.7rem;
+    color: #79f8e7;
+}
+
+.big {
+    overflow: hidden;
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+/*
+Arrange the buttons on the keyboard
+*/
 
 .keyboard {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 1px;
 }
+
+/*
+Button styling
+*/
 
 .button {
     height: 40px;
@@ -128,11 +205,51 @@ main {
     background-color: #a5c5bd;
 }
 
+/*
+Add radius to the button on the lower right corner
+*/
+
 .radius {
     border-radius: 0 0 5px 0;
 }
 
+/*
+The zero button is double the size and have a
+radius on the lower left corner
+*/
+
 .zero {
     grid-column: span 2;
     border-radius: 0 0 0 5px;
+}
+
+/*---------------------------------------*/
+
+/*
+In case the screen width is under 600px,
+adjust the size of some elements
+*/
+
+@media (max-width: 600px) {
+    header .mini {
+        display: flex;
+        align-items: center;
+        max-width: 100px;
+        flex-direction: column;
+    }
+    .mini select {
+        height: 30px;
+        width: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .mini input {
+        width: auto;
+        height: 30px;
+        font-size: 1rem;
+    }
+    .mini button {
+        width: auto;
+        margin-top: 10px;
+    }
 }
