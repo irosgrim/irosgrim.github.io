@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="description" content="Mat affär webbsida" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/main.css" />
     <title>Eat Better - mat affär</title>
   </head>
   <body>
     <header>
       <div class="column"><img src="imgs/logo.svg" alt="" class="logo" /></div>
-
       <div class="column search-nav">
         <form action="">
           <input type="text" aria-label="search field" />
@@ -43,6 +46,8 @@
       </header>
       <div id="user-content" class="user-content"></div>
     </div>
+
+    <!--  början av recept navigeringsfält -->
     <nav class="food-menu">
       <div class="menu-item">
         <img
@@ -81,9 +86,11 @@
         <p>vegansk</p>
       </div>
     </nav>
+    <!--  slutet av recept navigeringsfält -->
 
     <main>
-      <section>
+      <!--  början av Dagens Recept kategori  -->
+      <section class="dagensReceptSection">
         <h3>
           Dagens Recept
           <span class="link"><a href="#" class="link">mer</a></span>
@@ -93,7 +100,7 @@
             <img
               src="https:///source.unsplash.com/qp7WA8AV2x0/300x200"
               alt=""
-              class="featured-dish"
+              class="featured-img"
             />
             <p>Pannkakor</p>
           </div>
@@ -102,7 +109,7 @@
             <img
               src="https:///source.unsplash.com/RwoKbjJdYvE/300x200"
               alt=""
-              class="featured-dish"
+              class="featured-img"
             />
             <p>Ägg och korv</p>
           </div>
@@ -111,29 +118,32 @@
             <img
               src="https:///source.unsplash.com/-0gya0UbwPs/300x200"
               alt=""
-              class="featured-dish"
+              class="featured-img"
             />
             <p>Havregryn och mjölk</p>
           </div>
         </div>
       </section>
+      <!--  slutet av Dagens Recept kategori  -->
 
-      <section>
+      <!--  början av fynd kategori  -->
+      <section class="fyndSection">
         <h3>
           Fynd <span class="link"><a href="#" class="link">mer</a></span>
         </h3>
         <div class="flex-container">
-          <div class="product">
+          <div class="recipe">
             <img
               src="https:///source.unsplash.com/paz5CWdB2ys/300x200"
               alt="slush"
+              class="featured-img"
             />
             <div class="product-info">
-              <div class="column">
+              <div class="col">
                 <p class="product-name">Slush</p>
                 <p class="product-price thick">25 kr / 200ml</p>
               </div>
-              <div class="column product-amount">
+              <div class="col product-amount">
                 <input
                   type="number"
                   min="0"
@@ -147,17 +157,18 @@
             </div>
           </div>
 
-          <div class="product">
+          <div class="recipe">
             <img
               src="https:///source.unsplash.com/U4YdDVliDlA/300x200"
               alt="onions"
+              class="featured-img"
             />
             <div class="product-info">
-              <div class="column">
+              <div class="col">
                 <p class="product-name">Lök</p>
                 <p class="product-price thick">9.95 kr / kg</p>
               </div>
-              <div class="column product-amount">
+              <div class="col product-amount">
                 <input
                   type="number"
                   min="0"
@@ -171,17 +182,18 @@
             </div>
           </div>
 
-          <div class="product">
+          <div class="recipe">
             <img
               src="https:///source.unsplash.com/hXaHghBkEMQ/300x200"
               alt="pears"
+              class="featured-img"
             />
             <div class="product-info">
-              <div class="column">
+              <div class="col">
                 <p class="product-name">Päron</p>
                 <p class="product-price thick">67 kr / kg</p>
               </div>
-              <div class="column product-amount">
+              <div class="col product-amount">
                 <input
                   type="number"
                   min="0"
@@ -196,6 +208,8 @@
           </div>
         </div>
       </section>
+
+      <!--  slutet av fynd kategori  -->
     </main>
     <footer>
       <ul>
@@ -211,6 +225,8 @@
         </span>
       </div>
     </footer>
+    <script src="js/html.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/formValidation.js"></script>
   </body>
 </html>
