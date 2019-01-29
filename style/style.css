@@ -1,4 +1,5 @@
 * {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -49,14 +50,12 @@ label {
 input, textarea {
     font: 1rem 'Nunito', sans-serif;
     max-width: 70%;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
     border: 1px solid #979797;
     margin-bottom: 5px;
     margin-left: 0;
     margin-right: 0;
     -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -101,6 +100,7 @@ body {
     height: 54px;
     opacity: 0;
     text-align: center;
+    -webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
 
@@ -114,6 +114,7 @@ body {
     z-index: 999 !important;
     max-width: 998px;
     background-color: #ffffff;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(120, 120, 120, 0.50);
     box-shadow: 0 2px 4px 0 rgba(120, 120, 120, 0.50);
 }
 
@@ -133,10 +134,14 @@ body {
 
 .big_header nav {
     margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 50px;
     margin-left: auto;
     margin-right: auto;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     max-width: 300px;
 }
@@ -191,9 +196,14 @@ main {
 }
 
 .card article figure {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -215,6 +225,7 @@ figure {
     background: url(../imgs/persona.svg);
     width: 172px;
     height: 172px;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
 }
 
@@ -235,6 +246,7 @@ figure {
     font-size: 1rem;
     border-radius: 5px;
     background: rgba(255, 255, 255, 0.95);
+    -webkit-box-shadow: 0 3px 8px 2px rgba(122, 122, 122, 0.50);
     box-shadow: 0 3px 8px 2px rgba(122, 122, 122, 0.50);
 }
 
@@ -350,8 +362,15 @@ footer {
 }
 
 form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
     margin-top: 20px;
     text-align: rigth;
@@ -372,8 +391,14 @@ form {
         display: none;
     }
     .mobile_header nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
     }
     .mobile_header a {
@@ -387,6 +412,7 @@ form {
         width: 100px;
         height: 40px;
         color: #515151;
+        -webkit-transition: 0.5s;
         transition: 0.5s;
     }
     .mobile_header a:hover {
