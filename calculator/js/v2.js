@@ -115,7 +115,7 @@ buttonsArray.forEach(button => {
 
         let nr = Number(eval(removeLastOp));
         let secondNr = (nr * displayBig.innerText) / 100;
-        let calcPercent = eval(`${nr}${lastOp}${secondNr}`);
+        let calcPercent = eval(`${nr}${lastOp}${secondNr}`) * 100;
 
         if (displayBig.innerText != '') {
           expression.innerText = '';
