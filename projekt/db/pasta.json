@@ -1,0 +1,85 @@
+{
+  "pasta": [
+    {
+      "id": 1,
+      "name": "bowtie pasta",
+      "pic": "./db/imgs/pasta/bowtiepasta.jpg",
+      "measure": "kg",
+      "price": 19,
+      "unit": 1,
+      "currency": "kr"
+    },
+    {
+      "id": 2,
+      "name": "curly pasta",
+      "pic": "./db/imgs/pasta/curlypasta.jpg",
+      "measure": "kg",
+      "price": 14,
+      "unit": 1,
+      "currency": "kr"
+    },
+    {
+      "id": 3,
+      "name": "lego pasta",
+      "pic": "./db/imgs/pasta/legopasta.jpg",
+      "measure": "kg",
+      "price": 42,
+      "unit": 1,
+      "currency": "kr"
+    },
+    {
+      "id": 4,
+      "name": "pasta strips",
+      "pic": "./db/imgs/pasta/pastastrips.jpg",
+      "measure": "kg",
+      "price": 13,
+      "unit": 1,
+      "currency": "kr"
+    },
+    {
+      "id": 5,
+      "name": "penne pasta",
+      "pic": "./db/imgs/pasta/penne.jpg",
+      "measure": "kg",
+      "price": 15,
+      "unit": 1,
+      "currency": "kr"
+    },
+    {
+      "id": 6,
+      "name": "spagetti pasta",
+      "pic": "./db/imgs/pasta/spagetti.jpg",
+      "measure": "kg",
+      "price": 12,
+      "unit": 1,
+      "currency": "kr"
+    },
+    {
+      "id": 7,
+      "name": "spiral pasta",
+      "pic": "./db/imgs/pasta/spiral.jpg",
+      "measure": "kg",
+      "price": 9,
+      "unit": 1,
+      "currency": "kr"
+    },
+    {
+      "id": 8,
+      "name": "colorful pasta",
+      "pic": "./db/imgs/pasta/spiral2.jpg",
+      "measure": "kg",
+      "price": 15,
+      "unit": 1,
+      "currency": "kr"
+    },
+    {
+      "id": 8,
+      "name": "spiral pasta",
+      "pic": "./db/imgs/pasta/spiralpasta.jpg",
+      "measure": "kg",
+      "price": 11,
+      "unit": 1,
+      "currency": "kr"
+    }
+  ]
+}

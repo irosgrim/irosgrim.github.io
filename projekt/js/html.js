@@ -13,6 +13,7 @@ let registerOrLoginForms_html = `
              autocomplete="username"         
              pattern="[a-zA-Z0-9]{3,25}" 
              title="The usernamne can be only letters and numbers, max 25 characters"
+             class="inpt"
              required
              />
     </div>
@@ -24,11 +25,12 @@ let registerOrLoginForms_html = `
              maxlength="25"
              autocomplete="current-password"
              title="The password can be any character"
+             class="inpt"
              required
        />
     </div>
-
-    <div class="right"><button class="button">Logga in</button></div>
+    <div class="error" id="loginError"></div>
+    <div class="right"><button class="button" id="logIn">Logga in</button></div>
   </form>
   </div>
 
@@ -44,7 +46,8 @@ let registerOrLoginForms_html = `
                  id="registerUsername"
                  maxlength="25"            
                  pattern="[a-zA-Z0-9]{3,25}" 
-                 title="Användarnamnet kan bara vara bokstäver och siffror, max 25 tecken"/
+                 title="Användarnamnet kan bara vara bokstäver och siffror, max 25 tecken"
+                 class="inpt"
                  required
                  />
           </div>
@@ -57,6 +60,7 @@ let registerOrLoginForms_html = `
                  maxlength="25"            
                  pattern="[a-zA-Z]+[ ][a-zA-Z]+" 
                  title="Endast bokstäver och mellanslag tillåten"
+                 class="inpt"
                  required
           />
           </div>
@@ -64,9 +68,10 @@ let registerOrLoginForms_html = `
           <div class="inpt-container">
           <label id="personalNumberLabel" class="form_label" for="personalnumber">Personnummer*</label>
           <input type="text"
-                 id="registerPersonalnumber" 
+                 id="registerPersonalNumber" 
                  name="personalnumber"
                  title="personnummer  ex AAAAMMDD-1234"
+                 class="inpt"
                  required
                  />
           </div>
@@ -76,6 +81,7 @@ let registerOrLoginForms_html = `
           <input type="text" 
                  id="registerAddress"
                  name="address"
+                 class="inpt"
                  required
                  />
           </div>
@@ -83,9 +89,10 @@ let registerOrLoginForms_html = `
           <div class="inpt-container">
           <label id="postCodeLabel" class="form_label" for="postcode">Postnummer*</label>
           <input type="text"
-                 id="registerPostcode"
+                 id="registerPostCode"
                  name="postcode"
                  title="ex 123 45"
+                 class="inpt"
                  required
                   />
           </div>
@@ -94,7 +101,7 @@ let registerOrLoginForms_html = `
           <label class="form_label" for="city">Ort*</label>
           <select name="city" 
                   id="registerCity"
-                  name="city"
+                  class="citySelect"
                   required
                   >
                   <option value="Alingsås">Alingsås</option>
@@ -240,6 +247,7 @@ let registerOrLoginForms_html = `
                  name="phone"
                  pattern="[0-9]{6,10}"
                  title="ex. 0777568583"
+                 class="inpt"
                  required
                  />
           </div>
@@ -250,24 +258,18 @@ let registerOrLoginForms_html = `
                  id="registerEmail"
                  name="email"
                  maxlength="40"
+                 class="inpt"
                  required
                  />
           </div>
           <div class="right">
-          <button id="submit">Skapa konto</button>
+          <button id="registerAccount">Skapa konto</button>
           </div>
         </form>
       </div>
     </div>
 </div>
     `;
-
-let loggedInClient_html = `
-<h2>Hello Ion</h2>
-<p>
-  You are logged in
-</p>
-`;
 
 let emptyShoppingCart_html = `
 <h2>The shopping cart is empty</h2>
@@ -282,3 +284,40 @@ let notEmptyShoppingCart_html = `
   Here is the content of your shopping cart
 </p>
 `;
+
+function modal(theMeal) {
+  let ingredients = theMeal.ingredientList;
+  let amount = theMeal.amount;
+  let theLi = '';
+  for (let i = 0; i < ingredients.length; i++) {
+    if (ingredients[i] !== '')
+      theLi += `<li><span>${amount[i]}</span> ${ingredients[i]}</li>`;
+  }
+
+  let mealRecipe = `
+  <img src="${theMeal.mealPicture}" alt="${theMeal.mealName}"/>
+  <h2>${theMeal.mealName}</h2>
+  <h3>Ingredients</h3>
+  <ul id="${theMeal.mealId}">
+  ${theLi}
+  </ul>
+  <div class="mealRecipeButtonsContainer"> 
+    <button class="bigButton" id="recipeButton">Recipe</button>
+    <button class="bigButton" id="addRecipeToCart">Add to cart</button>
+  </div>
+  <p class="recipeText" id="recipeText">${theMeal.mealRecipe}</p>
+  `;
+  document.getElementById('mealRecipeContainer').innerHTML = mealRecipe;
+}
+
+function createMealDiv(meal) {
+  return `<div class="productContainer">
+<img
+  src="${meal.picMeal}"
+  alt="${meal.nameMeal}"
+  class="featured-img"
+  data-mealid="${meal.idMeal}"
+/>
+<p>${meal.nameMeal}</p>
+</div>`;
+}

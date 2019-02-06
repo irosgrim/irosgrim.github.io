@@ -1,0 +1,85 @@
+{
+  "meat": [
+    {
+      "id": 1,
+      "name": "beef",
+      "pic": "./db/imgs/meat/beef.jpg",
+      "measure": "kg",
+      "price": 250,
+      "unit": 1,
+      "currency": "kr"
+    },
+    {
+      "id": 2,
+      "name": "chorizo",
+      "pic": "./db/imgs/meat/chorizo.jpg",
+      "measure": "st",
+      "price": 79,
+      "unit": 1,
+      "currency": "kr"
+    },
+    {
+      "id": 3,
+      "name": "meatballs",
+      "pic": "./db/imgs/meat/meatballs.jpg",
+      "measure": "kg",
+      "price": 99,
+      "unit": 1,
+      "currency": "kr"
+    },
+    {
+      "id": 4,
+      "name": "beef meat",
+      "pic": "./db/imgs/meat/redmeat.jpg",
+      "measure": "kg",
+      "price": 315,
+      "unit": 1,
+      "currency": "kr"
+    },
+    {
+      "id": 5,
+      "name": "wild salmon",
+      "pic": "./db/imgs/meat/salmon.jpg",
+      "measure": "kg",
+      "price": 299,
+      "unit": 1,
+      "currency": "kr"
+    },
+    {
+      "id": 6,
+      "name": "random small fish",
+      "pic": "./db/imgs/meat/smallfish.jpg",
+      "measure": "kg",
+      "price": 89,
+      "unit": 1,
+      "currency": "kr"
+    },
+    {
+      "id": 7,
+      "name": "smoked beef",
+      "pic": "./db/imgs/meat/smokedmeat.jpg",
+      "measure": "kg",
+      "price": 256,
+      "unit": 1,
+      "currency": "kr"
+    },
+    {
+      "id": 8,
+      "name": "tuna",
+      "pic": "./db/imgs/meat/tuna.jpg",
+      "measure": "kg",
+      "price": 117,
+      "unit": 1,
+      "currency": "kr"
+    },
+    {
+      "id": 8,
+      "name": "country side",
+      "pic": "./db/imgs/meat/salami.jpg",
+      "measure": "kg",
+      "price": 333,
+      "unit": 1,
+      "currency": "kr"
+    }
+  ]
+}

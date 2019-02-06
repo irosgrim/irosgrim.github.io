@@ -1,0 +1,112 @@
+{
+  "fruits": [
+    {
+      "id": 1,
+      "name": "ananas",
+      "pic": "./db/imgs/fruits/ananas.jpg",
+      "measure": "g",
+      "price": 45,
+      "unit": 200,
+      "currency": "kr"
+    },
+    {
+      "id": 2,
+      "name": "avocado",
+      "pic": "./db/imgs/fruits/avocado.jpg",
+      "measure": "st",
+      "price": 11,
+      "unit": 1,
+      "currency": "kr"
+    },
+    {
+      "id": 3,
+      "name": "bananas eco",
+      "pic": "./db/imgs/fruits/bananas.jpg",
+      "measure": "kg",
+      "price": 48,
+      "unit": 1,
+      "currency": "kr"
+    },
+    {
+      "id": 4,
+      "name": "blueberries",
+      "pic": "./db/imgs/fruits/blueberries.jpg",
+      "measure": "g",
+      "price": 33,
+      "unit": 100,
+      "currency": "kr"
+    },
+    {
+      "id": 5,
+      "name": "cherries",
+      "pic": "./db/imgs/fruits/cherry.jpg",
+      "measure": "kg",
+      "price": 299,
+      "unit": 1,
+      "currency": "kr"
+    },
+    {
+      "id": 6,
+      "name": "figs",
+      "pic": "./db/imgs/fruits/figs.jpg",
+      "measure": "g",
+      "price": 36,
+      "unit": 200,
+      "currency": "kr"
+    },
+    {
+      "id": 7,
+      "name": "grapes",
+      "pic": "./db/imgs/fruits/grapes.jpg",
+      "measure": "kg",
+      "price": 69,
+      "unit": 1,
+      "currency": "kr"
+    },
+    {
+      "id": 8,
+      "name": "limes",
+      "pic": "./db/imgs/fruits/limes.jpg",
+      "measure": "st",
+      "price": 15,
+      "unit": 1,
+      "currency": "kr"
+    },
+    {
+      "id": 9,
+      "name": "oranges",
+      "pic": "./db/imgs/fruits/oranges.jpg",
+      "measure": "kg",
+      "price": 53,
+      "unit": 1,
+      "currency": "kr"
+    },
+    {
+      "id": 10,
+      "name": "peaches",
+      "pic": "./db/imgs/fruits/peaches.jpg",
+      "measure": "kg",
+      "price": 33,
+      "unit": 1,
+      "currency": "kr"
+    },
+    {
+      "id": 11,
+      "name": "pears",
+      "pic": "./db/imgs/fruits/pears.jpg",
+      "measure": "kg",
+      "price": 49,
+      "unit": 1,
+      "currency": "kr"
+    },
+    {
+      "id": 12,
+      "name": "raspberries",
+      "pic": "./db/imgs/fruits/raspberry.jpg",
+      "measure": "g",
+      "price": 59,
+      "unit": 150,
+      "currency": "kr"
+    }
+  ]
+}

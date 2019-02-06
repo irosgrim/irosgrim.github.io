@@ -14,7 +14,9 @@
   </head>
   <body>
     <header>
-      <div class="column"><img src="imgs/logo.svg" alt="" class="logo" /></div>
+      <div class="column">
+        <img src="imgs/logo.svg" alt="eat better, grocery store" class="logo" />
+      </div>
       <div class="column search-nav">
         <form>
           <input type="text" aria-label="search field" />
@@ -23,9 +25,7 @@
           </button>
         </form>
         <nav class="user-nav">
-          <p class="light">
-            Hej <span id="user-name" class="dark"> Ion </span>
-          </p>
+          <p class="light" id="user-name"></p>
           <span id="user-icon" class="nav-icon">
             <img src="imgs/user-icon.svg" alt="user button" />
           </span>
@@ -50,20 +50,24 @@
     <!--  början av recept navigeringsfält -->
     <nav class="food-menu">
       <div class="menu-item">
-        <img
-          src="imgs/groceries-icon.svg"
-          alt="groceries button"
-          class="menu-type"
-        />
-        <p>matvaror</p>
+        <a href="store.html">
+          <img
+            src="imgs/groceries-icon.svg"
+            alt="groceries button"
+            class="menu-type"
+          />
+          <p>matvaror</p>
+        </a>
       </div>
       <div class="menu-item">
-        <img
-          src="imgs/weightwatch-icon.svg"
-          alt="weight watch button"
-          class="menu-type"
-        />
-        <p>viktvakt</p>
+        <a href="viktvakt.html">
+          <img
+            src="imgs/weightwatch-icon.svg"
+            alt="weight watch button"
+            class="menu-type"
+          />
+          <p>viktvakt</p>
+        </a>
       </div>
       <div class="menu-item">
         <img
@@ -89,40 +93,26 @@
     <!--  slutet av recept navigeringsfält -->
 
     <main>
+      <div class="modalBg" id="modalBg">
+        <div class="mealRecipeFrame" id="mealRecipeFrame">
+          <div class="mealRecipeWindowClose" id="closeWindowBtn">
+            <img
+              src="imgs/x-icon.svg"
+              alt="close button"
+              id="closeWindowBtn"
+              class="close-btn"
+            />
+          </div>
+          <div id="mealRecipeContainer" class="mealRecipeContainer"></div>
+        </div>
+      </div>
       <!--  början av Dagens Recept kategori  -->
       <section class="dagensReceptSection">
         <h3>
           Dagens Recept
           <span class="link"><a href="#" class="link">mer</a></span>
         </h3>
-        <div class="flex-container">
-          <div class="recipe">
-            <img
-              src="https://source.unsplash.com/qp7WA8AV2x0/300x200"
-              alt=""
-              class="featured-img"
-            />
-            <p>Pannkakor</p>
-          </div>
-
-          <div class="recipe">
-            <img
-              src="https://source.unsplash.com/RwoKbjJdYvE/300x200"
-              alt=""
-              class="featured-img"
-            />
-            <p>Ägg och korv</p>
-          </div>
-
-          <div class="recipe">
-            <img
-              src="https://source.unsplash.com/-0gya0UbwPs/300x200"
-              alt=""
-              class="featured-img"
-            />
-            <p>Havregryn och mjölk</p>
-          </div>
-        </div>
+        <div class="flex-container" id="dagensRecept"></div>
       </section>
       <!--  slutet av Dagens Recept kategori  -->
 
@@ -132,18 +122,18 @@
           Fynd <span class="link"><a href="#" class="link">mer</a></span>
         </h3>
         <div class="flex-container">
-          <div class="recipe">
+          <div class="productContainer">
             <img
               src="https://source.unsplash.com/paz5CWdB2ys/300x200"
               alt="slush"
               class="featured-img"
             />
             <div class="product-info">
-              <div class="col">
-                <p class="product-name">Slush</p>
+              <div class="product-name">
+                <p>Slush</p>
                 <p class="product-price thick">25 kr / 200ml</p>
               </div>
-              <div class="col product-amount">
+              <div class="product-amount">
                 <input
                   type="number"
                   min="0"
@@ -156,18 +146,18 @@
             </div>
           </div>
 
-          <div class="recipe">
+          <div class="productContainer">
             <img
               src="https://source.unsplash.com/U4YdDVliDlA/300x200"
               alt="onions"
               class="featured-img"
             />
             <div class="product-info">
-              <div class="col">
-                <p class="product-name">Lök</p>
+              <div class="product-name">
+                <p>Lök</p>
                 <p class="product-price thick">9.95 kr / kg</p>
               </div>
-              <div class="col product-amount">
+              <div class="product-amount">
                 <input
                   type="number"
                   min="0"
@@ -180,18 +170,18 @@
             </div>
           </div>
 
-          <div class="recipe">
+          <div class="productContainer">
             <img
               src="https://source.unsplash.com/hXaHghBkEMQ/300x200"
               alt="pears"
               class="featured-img"
             />
             <div class="product-info">
-              <div class="col">
-                <p class="product-name">Päron</p>
+              <div class="product-name">
+                <p>Päron</p>
                 <p class="product-price thick">67 kr / kg</p>
               </div>
-              <div class="col product-amount">
+              <div class="product-amount">
                 <input
                   type="number"
                   min="0"
@@ -218,10 +208,12 @@
       <div class="copyright">
         <p>&copy; 2019 Eat<span class="thick">Better </span></p>
         <span>
-          <img src="imgs/leaf-icon.svg" alt="leaf" class="small-logo" />
+          <img src="imgs/leaf-icon.svg" alt="leaf image" class="small-logo" />
         </span>
       </div>
     </footer>
+    <script src="js/account.js"></script>
+    <script src="js/requests.js"></script>
     <script src="js/html.js"></script>
     <script src="js/main.js"></script>
     <script src="js/formValidation.js"></script>

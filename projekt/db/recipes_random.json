@@ -1,0 +1,207 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "name": "Salmon Avocado Salad",
+      "category": "general",
+      "picture": "",
+      "ingredients": [
+        {
+          "id": "1",
+          "name": "Salmon",
+          "amount": "400",
+          "measure": "g",
+          "price": "66 kr",
+          "unit": "200g"
+        },
+        {
+          "id": "2",
+          "name": "Avocado",
+          "amount": "3",
+          "measure": "st",
+          "price": "45 kr",
+          "unit": "1st"
+        },
+        {
+          "id": "3",
+          "name": "Cucumber",
+          "amount": "1",
+          "measure": "st",
+          "price": "15 kr",
+          "unit": "1st"
+        },
+        {
+          "id": "4",
+          "name": "Spinach",
+          "amount": "400",
+          "measure": "g",
+          "price": "15 kr",
+          "unit": "200g"
+        },
+        {
+          "id": "5",
+          "name": "Mint",
+          "amount": "5",
+          "measure": "g",
+          "price": "5 kr",
+          "unit": "50g"
+        },
+        {
+          "id": "6",
+          "name": "Lime",
+          "amount": "1",
+          "measure": "st",
+          "price": "11 kr",
+          "unit": "1st"
+        },
+        {
+          "id": "7",
+          "name": "Honey",
+          "amount": "10",
+          "measure": "g",
+          "price": "95 kr",
+          "unit": "250g"
+        },
+        {
+          "id": "8",
+          "name": "Olive oil",
+          "amount": "15",
+          "measure": "ml",
+          "price": "145 kr",
+          "unit": "1000ml"
+        }
+      ],
+      "instructions": "Season the salmon, then rub with oil. Mix the dressing ingredients together. Halve, stone, peel and slice the avocados. Halve and quarter the cucumber lengthways, then cut into slices. Divide salad, avocado and cucumber between four plates, then drizzle with half the dressing. Heat a non-stick pan. Add the salmon and fry for 3-4 mins on each side until crisp but still moist inside. Put a salmon fillet on top of each salad and drizzle over the remaining dressing. Serve warm."
+    },
+    {
+      "id": "2",
+      "name": "Baked salmon with fennel & tomatoes",
+      "category": "general",
+      "picture": "https://www.themealdb.com/images/media/meals/1548772327.jpg",
+      "ingredients": [
+        {
+          "id": "1",
+          "name": "Fennel",
+          "amount": "2",
+          "measure": "st",
+          "price": "34 kr",
+          "unit": "1st"
+        },
+        {
+          "id": "2",
+          "name": "Parsley",
+          "amount": "10",
+          "measure": "g",
+          "price": "25 kr",
+          "unit": "100g"
+        },
+        {
+          "id": "3",
+          "name": "Lemon",
+          "amount": "1",
+          "measure": "st",
+          "price": "9 kr",
+          "unit": "1st"
+        },
+        {
+          "id": "4",
+          "name": "Cherry tomatoes",
+          "amount": "175",
+          "measure": "g",
+          "price": "56 kr",
+          "unit": "200g"
+        },
+        {
+          "id": "5",
+          "name": "Salmon",
+          "amount": "350",
+          "measure": "g",
+          "price": "66 kr",
+          "unit": "200g"
+        },
+        {
+          "id": "6",
+          "name": "Black Olives",
+          "amount": "150",
+          "measure": "g",
+          "price": "87 kr",
+          "unit": "500g"
+        },
+        {
+          "id": "7",
+          "name": "Olive oil",
+          "amount": "15",
+          "measure": "ml",
+          "price": "145 kr",
+          "unit": "1000ml"
+        }
+      ],
+      "instructions": "Heat oven to 180C/fan 160C/gas 4. Trim the fronds from the fennel and set aside. Cut the fennel bulbs in half, then cut each half into 3 wedges. Cook in boiling salted water for 10 mins, then drain well. Chop the fennel fronds roughly, then mix with the parsley and lemon zest. Spread the drained fennel over a shallow ovenproof dish, then add the tomatoes. Drizzle with olive oil, then bake for 10 mins. Nestle the salmon among the veg, sprinkle with lemon juice, then bake 15 mins more until the fish is just cooked. Scatter over the parsley and serve."
+    },
+    {
+      "id": "3",
+      "name": "Peanut Butter Cookies",
+      "category": "general",
+      "picture": "https://www.themealdb.com/images/media/meals/1544384070.jpg",
+      "ingredients": [
+        {
+          "id": "1",
+          "name": "Peanut butter",
+          "amount": "2",
+          "measure": "st",
+          "price": "34 kr",
+          "unit": "1st"
+        },
+        {
+          "id": "2",
+          "name": "Sugar",
+          "amount": "125",
+          "measure": "g",
+          "price": "47 kr",
+          "unit": "1000g"
+        },
+        {
+          "id": "3",
+          "name": "Egg",
+          "amount": "1",
+          "measure": "st",
+          "price": "30 kr",
+          "unit": "10st"
+        },
+        {
+          "id": "4",
+          "name": "Cherry tomatoes",
+          "amount": "175",
+          "measure": "g",
+          "price": "56 kr",
+          "unit": "200g"
+        },
+        {
+          "id": "5",
+          "name": "Salmon",
+          "amount": "350",
+          "measure": "g",
+          "price": "66 kr",
+          "unit": "200g"
+        },
+        {
+          "id": "6",
+          "name": "Black Olives",
+          "amount": "150",
+          "measure": "g",
+          "price": "87 kr",
+          "unit": "500g"
+        },
+        {
+          "id": "7",
+          "name": "Olive oil",
+          "amount": "15",
+          "measure": "ml",
+          "price": "145 kr",
+          "unit": "1000ml"
+        }
+      ],
+      "instructions": "Heat oven to 180C/fan 160C/gas 4. Trim the fronds from the fennel and set aside. Cut the fennel bulbs in half, then cut each half into 3 wedges. Cook in boiling salted water for 10 mins, then drain well. Chop the fennel fronds roughly, then mix with the parsley and lemon zest. Spread the drained fennel over a shallow ovenproof dish, then add the tomatoes. Drizzle with olive oil, then bake for 10 mins. Nestle the salmon among the veg, sprinkle with lemon juice, then bake 15 mins more until the fish is just cooked. Scatter over the parsley and serve."
+    }
+  ]
+}
