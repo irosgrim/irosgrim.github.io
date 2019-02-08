@@ -3,7 +3,6 @@ Vue.component('inpt-form', {
     buttonlabel: String,
     min: Number,
     max: Number,
-    enabled: Boolean,
     step: Number,
     value: Number,
     default: Number,
