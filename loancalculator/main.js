@@ -1,153 +1,47 @@
-// I did the first version without currency formatting inside input and that was quite easy.
-// The challenge was currency formatting in the input boxes and that took a lot of time.
-// There are things that can be improoved, of course.
-
-Vue.component('cashform', {
-  props: ['value'],
-  template: `
-        <div class="row">
-                    <button class="calculator-button" v-on:click="decrementAmount">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16">
-                          <path
-                            fill="none"
-                            fill-rule="nonzero"
-                            stroke="#FFF"
-                            stroke-linecap="round"
-                            stroke-width="2"
-                            d="M1 1.5h15"
-                          />
-                        </svg>
-                      
-                    </button>
-          
-                    <input type="text" 
-                           v-model="amountToLoan" 
-                           v-on:keyup.enter="amountInputActive = false" 
-                           v-on:click="amountInputActive = true"
-                           v-on:blur="amountInputActive = false"
-                           />
-          
-                    <button class="calculator-button" v-on:click="incrementAmount">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="22">
-                          <path
-                            fill="none"
-                            stroke="#FFF"
-                            stroke-linecap="round"
-                            stroke-width="2"
-                            d="M1 8.5h15M8.5 1v15"
-                          />
-                        </svg>
-                    </button>
-                  </div>
-        `,
+Vue.component('inpt-form', {
+  props: {
+    buttonlabel: String,
+    min: Number,
+    max: Number,
+    enabled: Boolean,
+    step: Number,
+    value: Number,
+    default: Number,
+    suffix: String
+  },
   data: function() {
     return {
-      amountInputActive: false
+      minimum: this.min,
+      maximum: this.max,
+      btnLabel: this.buttonlabel,
+      incStep: this.step,
+      val: this.value,
+      def: this.default,
+      inptActive: false
     };
   },
   methods: {
-    incrementAmount: function() {
-      if (this.$parent.amountToLoan < 600000) {
-        this.$parent.amountToLoan += 5000;
+    increase: function() {
+      if (this.val < this.maximum) {
+        this.val += this.step;
+        this.$emit('input', Number(this.val));
       }
     },
-    decrementAmount: function() {
-      if (this.$parent.amountToLoan > 5000) {
-        this.$parent.amountToLoan -= 5000;
+    decrease: function() {
+      if (this.val > this.minimum) {
+        this.val -= this.step;
+        this.$emit('input', Number(this.val));
       }
     }
   },
   computed: {
-    amountToLoan: {
-      //when we call the method
+    counter: {
       get: function() {
-        if (this.amountInputActive) {
-          return this.value.toString();
+        if (this.inptActive) {
+          return this.val.toString();
         } else {
           //format
-          return (
-            this.value.toLocaleString('se').replace(/,/g, ' ') +
-            this.$parent.labels.monthlyCostSuffix
-          );
-        }
-      },
-      //called when we change the value
-      set: function(modifiedValue) {
-        // make it number again
-        let newValue = parseFloat(modifiedValue.replace(/[^\d\s]/g, ''));
-        // Ensure that it is not NaN
-        if (isNaN(newValue)) {
-          newValue = 0;
-        }
-        //show the new value
-        this.$emit('input', newValue);
-      }
-    }
-  }
-});
-
-Vue.component('yearsform', {
-  props: ['value'],
-  template: `
-        <div class="row">
-                    <button class="calculator-button" v-on:click="decrementAmount">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16">
-                          <path
-                            fill="none"
-                            fill-rule="nonzero"
-                            stroke="#FFF"
-                            stroke-linecap="round"
-                            stroke-width="2"
-                            d="M1 1.5h15"
-                          />
-                        </svg>
-                    </button>
-          
-                    <input type="text" 
-                           v-model="lengthToLoan" 
-                           v-on:keyup.enter="yearsInputActive = false" 
-                           v-on:click="yearsInputActive = true"
-                           v-on:blur="yearsInputActive = false"
-                           />
-                           
-                    <button class="calculator-button" v-on:click="incrementAmount">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="22">
-                          <path
-                            fill="none"
-                            stroke="#FFF"
-                            stroke-linecap="round"
-                            stroke-width="2"
-                            d="M1 8.5h15M8.5 1v15"
-                          />
-                        </svg>
-                    </button>
-                  </div>
-        `,
-  data: function() {
-    return {
-      yearsInputActive: false
-    };
-  },
-  methods: {
-    incrementAmount: function() {
-      if (this.$parent.yearsToLoan < 15) {
-        this.$parent.yearsToLoan += 1;
-      }
-    },
-    decrementAmount: function() {
-      if (this.$parent.yearsToLoan > 1) {
-        this.$parent.yearsToLoan -= 1;
-      }
-    }
-  },
-  computed: {
-    lengthToLoan: {
-      get: function() {
-        if (this.yearsInputActive) {
-          return this.value.toString();
-        } else {
-          //format
-          return this.value + this.$parent.labels.repaymentYearsSuffix;
+          return this.val.toLocaleString('se').replace(/,/g, ' ') + this.suffix;
         }
       },
       set: function(modifiedValue) {
@@ -157,24 +51,59 @@ Vue.component('yearsform', {
         if (isNaN(newValue)) {
           newValue = 0;
         }
+        this.val = newValue;
         this.$emit('input', newValue);
       }
     }
-  }
+  },
+  template: `
+    <div class="row">
+    <button class="calculator-button" v-on:click="decrease">
+        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16">
+          <path
+            fill="none"
+            fill-rule="nonzero"
+            stroke="#FFF"
+            stroke-linecap="round"
+            stroke-width="2"
+            d="M1 1.5h15"
+          />
+        </svg>
+      
+    </button>   
+    <input type="text" 
+           v-model:value="counter" 
+           v-on:keyup.enter="inptActive = false" 
+           v-on:click="inptActive = true"
+           v-on:blur="inptActive = false"
+           />   
+    <button class="calculator-button" v-on:click="increase">
+        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="22">
+          <path
+            fill="none"
+            stroke="#FFF"
+            stroke-linecap="round"
+            stroke-width="2"
+            d="M1 8.5h15M8.5 1v15"
+          />
+        </svg>
+    </button>
+   </div>
+   `
 });
 
-new Vue({
+// ------------ parent
+
+var app = new Vue({
   el: '#app',
-  data: function() {
-    return {
-      amountToLoan: 250000,
-      yearsToLoan: 14,
-      monthlyCostTotal: 0
-    };
+  data: {
+    years: 14,
+    amountToLoan: 250000,
+    monthlyCostTotal: 0
   },
   methods: {
     calculateMonthlyCost: function() {
-      var months = this.yearsToLoan * 12;
+      var months = this.years * 12;
       var loanAmount = this.amountToLoan;
       var interest = this.labels.interest;
 
@@ -192,11 +121,10 @@ new Vue({
     labels() {
       return {
         monthlyCostLabel: 'Månadskostnad',
-        monthlyCostSuffix: ' kr',
+        cashSuffix: ' kr',
         loanAmountLabel: 'Lånebelopp',
-        loanAmountSuffix: ' kr',
         repaymentYearsLabel: 'Återbetalningstid',
-        repaymentYearsSuffix: ' år',
+        yearsSuffix: ' år',
         ctaLabel: 'Ansök nu',
         interest: 5.77
       };
@@ -206,7 +134,7 @@ new Vue({
     amountToLoan: function(val) {
       this.calculateMonthlyCost();
     },
-    yearsToLoan: function(val) {
+    years: function(val) {
       this.calculateMonthlyCost();
     }
   },
