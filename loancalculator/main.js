@@ -1,61 +1,57 @@
 Vue.component('inpt-form', {
-  props: {
-    buttonlabel: String,
-    min: Number,
-    max: Number,
-    step: Number,
-    value: Number,
-    default: Number,
-    suffix: String
-  },
-  data: function() {
-    return {
-      minimum: this.min,
-      maximum: this.max,
-      btnLabel: this.buttonlabel,
-      incStep: this.step,
-      val: this.value,
-      def: this.default,
-      inptActive: false
-    };
-  },
-  methods: {
-    increase: function() {
-      if (this.val < this.maximum) {
-        this.val += this.step;
-        this.$emit('input', Number(this.val));
-      }
-    },
-    decrease: function() {
-      if (this.val > this.minimum) {
-        this.val -= this.step;
-        this.$emit('input', Number(this.val));
-      }
-    }
-  },
-  computed: {
-    counter: {
-      get: function() {
-        if (this.inptActive) {
-          return this.val.toString();
-        } else {
-          //format
-          return this.val.toLocaleString('se').replace(/,/g, ' ') + this.suffix;
-        }
-      },
-      set: function(modifiedValue) {
-        // make it number again
-        let newValue = parseFloat(modifiedValue.replace(/[^\d\s]/g, ''));
-        // Ensure that it is not NaN
-        if (isNaN(newValue)) {
-          newValue = 0;
-        }
-        this.val = newValue;
-        this.$emit('input', newValue);
-      }
-    }
-  },
-  template: `
+	props: {
+		buttonlabel: String,
+		min: Number,
+		max: Number,
+		step: Number,
+		value: Number,
+		default: Number,
+		suffix: String
+	},
+	data: function() {
+		return {
+			inptActive: false
+		};
+	},
+	methods: {
+		increase: function() {
+			if (this.value < this.max) {
+				this.value += this.step;
+				this.$emit('input', Number(this.value));
+			}
+		},
+		decrease: function() {
+			if (this.value > this.min) {
+				this.value -= this.step;
+				this.$emit('input', Number(this.value));
+			}
+		}
+	},
+	computed: {
+		counter: {
+			get: function() {
+				if (this.inptActive) {
+					return this.value.toString();
+				} else {
+					//format
+					return (
+						this.value.toLocaleString('se').replace(/,/g, ' ') + this.suffix
+					);
+				}
+			},
+			set: function(modifiedValue) {
+				// make it number again
+				let newValue = parseFloat(modifiedValue.replace(/[^\d\s]/g, ''));
+				// Ensure that it is not NaN
+				if (isNaN(newValue)) {
+					newValue = 0;
+				}
+				this.value = newValue;
+				this.$emit('input', newValue);
+			}
+		}
+	},
+	template: `
     <div class="row">
     <button class="calculator-button" v-on:click="decrease">
         <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16">
@@ -94,52 +90,52 @@ Vue.component('inpt-form', {
 // ------------ parent
 
 var app = new Vue({
-  el: '#app',
-  data: {
-    years: 14,
-    amountToLoan: 250000,
-    monthlyCostTotal: 0
-  },
-  methods: {
-    calculateMonthlyCost: function() {
-      var months = this.years * 12;
-      var loanAmount = this.amountToLoan;
-      var interest = this.labels.interest;
+	el: '#app',
+	data: {
+		years: 14,
+		amountToLoan: 250000,
+		monthlyCostTotal: 0
+	},
+	methods: {
+		calculateMonthlyCost: function() {
+			var months = this.years * 12;
+			var loanAmount = this.amountToLoan;
+			var interest = this.labels.interest;
 
-      var totalPerMonth = Math.round(
-        (loanAmount * (interest / 100)) /
-          12 /
-          (1 - Math.pow(1 + interest / 100 / 12, months * -1))
-      );
-      this.monthlyCostTotal = totalPerMonth
-        .toLocaleString('se')
-        .replace(/,/g, ' ');
-    }
-  },
-  computed: {
-    labels() {
-      return {
-        monthlyCostLabel: 'Månadskostnad',
-        cashSuffix: ' kr',
-        loanAmountLabel: 'Lånebelopp',
-        repaymentYearsLabel: 'Återbetalningstid',
-        yearsSuffix: ' år',
-        ctaLabel: 'Ansök nu',
-        interest: 5.77
-      };
-    }
-  },
-  watch: {
-    amountToLoan: function(val) {
-      this.calculateMonthlyCost();
-    },
-    years: function(val) {
-      this.calculateMonthlyCost();
-    }
-  },
-  mounted: function() {
-    this.$nextTick(function() {
-      this.calculateMonthlyCost();
-    });
-  }
+			var totalPerMonth = Math.round(
+				(loanAmount * (interest / 100)) /
+					12 /
+					(1 - Math.pow(1 + interest / 100 / 12, months * -1))
+			);
+			this.monthlyCostTotal = totalPerMonth
+				.toLocaleString('se')
+				.replace(/,/g, ' ');
+		}
+	},
+	computed: {
+		labels() {
+			return {
+				monthlyCostLabel: 'Månadskostnad',
+				cashSuffix: ' kr',
+				loanAmountLabel: 'Lånebelopp',
+				repaymentYearsLabel: 'Återbetalningstid',
+				yearsSuffix: ' år',
+				ctaLabel: 'Ansök nu',
+				interest: 5.77
+			};
+		}
+	},
+	watch: {
+		amountToLoan: function(val) {
+			this.calculateMonthlyCost();
+		},
+		years: function(val) {
+			this.calculateMonthlyCost();
+		}
+	},
+	mounted: function() {
+		this.$nextTick(function() {
+			this.calculateMonthlyCost();
+		});
+	}
 });
