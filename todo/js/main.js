@@ -26,7 +26,9 @@ new Vue({
 	},
 	methods: {
 		addNote: function(e) {
-			this.todolist.push({ entry: e, done: false });
+			if (e !== '') {
+				this.todolist.push({ entry: e, done: false });
+			}
 		},
 		done: function(index) {
 			this.todolist[index].done = !this.todolist[index].done;
