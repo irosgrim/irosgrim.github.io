@@ -56,11 +56,11 @@ const todoInpt = document.getElementById('todoInpt');
 const inptLabel = document.getElementById('input-label');
 
 todoInpt.addEventListener('focus', function() {
-	inptLabel.style = 'top: 20px; left: -50px; font-size: 0.9rem';
+	inptLabel.style = 'top: 70px; font-size: 0.9rem; height: 28px;';
 });
 
 todoInpt.addEventListener('focusout', function() {
 	if (todoInpt.value === '') {
-		inptLabel.style = 'top: 60px';
+		inptLabel.style = 'top: 90px';
 	}
 });

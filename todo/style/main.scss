@@ -13,6 +13,7 @@ body {
 	width: 500px;
 }
 .main {
+	position: relative;
 	margin-top: 50px;
 	text-align: center;
 	.controls {
@@ -20,7 +21,7 @@ body {
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
-		margin-top: 30px;
+		margin-top: 50px;
 		margin-bottom: 30px;
 		.controls__btn {
 			width: 50px;
@@ -108,9 +109,12 @@ input:focus {
 }
 
 .input-label {
-	position: relative;
-	top: 60px;
-	left: 0px;
+	position: absolute;
+	display: inline-block;
+	margin: 0;
+	height: 32px;
+	top: 90px;
+	left: 110px;
 	font-size: 1.4rem;
 	transition: 0.5s;
 }
