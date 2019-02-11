@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+			integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style/main.css" />
+		<title>Todo</title>
+	</head>
+	<body>
+		<div id="app" class="main">
+			<h1>Todo VueJs</h1>
+			<label for="todoInpt" class="input-label" id="input-label">
+				Add something to do
+			</label>
+			<!-- interface -->
+			<controls-component
+				v-on:addnote="addNote"
+				v-on:showhide="showHideTodos($event)"
+			></controls-component>
+
+			<!-- todo list -->
+			<div class="todo-container" id="todoContainer">
+				<h2>Todo Entries</h2>
+				<entry-component
+					v-for="(note, index) in todolist"
+					v-bind:entry="note.entry"
+					v-bind:done="note.done"
+					v-bind:key="note.id"
+					v-on:doneentry="done(index)"
+					v-on:deleteentry="deleteNote(index)"
+					v-on:editednote="editNote(index, editedNote)"
+					v-bind:id="index"
+				></entry-component>
+			</div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<script src="js/main.js" type="module"></script>
+	</body>
+</html>
