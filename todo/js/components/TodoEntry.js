@@ -24,11 +24,16 @@ export default {
 			this.$emit('editednote', this.editedNote);
 		}
 	},
+	computed: {
+		checkIcon: function() {
+			return this.done === true ? 'far fa-check-square' : 'far fa-square';
+		}
+	},
 	template: `     
 	<div>
 	  <div class="todo-container__entry">
 	    <div class="entry__btn" v-on:click="deleteClicked">
-	      <i class="far fa-trash-alt">
+	      <i class="far fa-trash-alt danger">
 	      </i>
 	    </div>
 	    <div class="entry__text">
@@ -44,8 +49,8 @@ export default {
 	      </i>
 	    </div>
 	    <div class="entry__btn" v-on:click="doneClicked">
-	      <i class="far fa-check-square">
-	      </i>
+	      <i v-bind:class="checkIcon">
+				</i>
 	    </div>
       </div>
 	</div>

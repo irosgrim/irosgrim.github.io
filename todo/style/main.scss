@@ -27,6 +27,7 @@ body {
 			width: 50px;
 			height: 40px;
 			text-align: center;
+			font-size: 1.8rem;
 			color: #4b6858;
 			padding-top: 6px;
 			transition: 0.5s;
@@ -122,4 +123,8 @@ input:focus {
 .done {
 	text-decoration: line-through;
 	font-style: italic;
+}
+
+.danger:hover {
+	color: #f76503;
 }
