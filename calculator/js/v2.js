@@ -1,7 +1,6 @@
 console.log(`
 //////////////////////////////////
 //  By Ion Rosgrim
-//  Webbutveckling 2, Uppdrag 3
 //  Calculator V2
 //  All the functions work as expected
 //  https://github.com/irosgrim
