@@ -62,6 +62,8 @@ input, textarea {
 textarea {
     vertical-align: top;
     height: 5em;
+    overflow: scroll;
+    resize: none;
 }
 
 .button {
@@ -248,6 +250,19 @@ figure {
     background: rgba(255, 255, 255, 0.95);
     -webkit-box-shadow: 0 3px 8px 2px rgba(122, 122, 122, 0.50);
     box-shadow: 0 3px 8px 2px rgba(122, 122, 122, 0.50);
+}
+
+.info a {
+    position: relative;
+    top: 0;
+    color: rgba(61, 86, 92, 0.9);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.info a:hover {
+    color: #000000;
+    padding-left: 20px;
 }
 
 .info ul {
