@@ -14,7 +14,13 @@ Inspired by MacOsX notes
 - [x] handle panel resize
 - [ ] handle add pictures
 - [x] text format
-- [ ] remove html entities from note title
+  - [x] bold
+  - [x] italic
+  - [x] underline
+  - [x] strike-through
+- [x] unordered list
+- [x] rename on double click and enter
+- [x] remove html entities from note title
 - [ ] search feature
 - [ ] local storage
 - [ ] DB storage
