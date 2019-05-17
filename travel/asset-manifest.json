@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "./static/css/main.899b08be.chunk.css",
+    "main.js": "./static/js/main.76a1025e.chunk.js",
+    "main.js.map": "./static/js/main.76a1025e.chunk.js.map",
+    "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
+    "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
+    "static/js/2.abf38483.chunk.js": "./static/js/2.abf38483.chunk.js",
+    "static/js/2.abf38483.chunk.js.map": "./static/js/2.abf38483.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.b6985a3a5bd8a58f1c850cf8ec6bf0f7.js": "./precache-manifest.b6985a3a5bd8a58f1c850cf8ec6bf0f7.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.899b08be.chunk.css.map": "./static/css/main.899b08be.chunk.css.map",
+    "static/media/dubai.jpg": "./static/media/dubai.ca70698c.jpg",
+    "static/media/App.css": "./static/media/istanbul.93c9e45b.jpeg",
+    "static/media/logo.png": "./static/media/logo.94e3dc55.png",
+    "static/media/logo_white.png": "./static/media/logo_white.adc27e23.png",
+    "static/media/search-icon.svg": "./static/media/search-icon.a6fb7699.svg",
+    "static/media/shopping-cart.svg": "./static/media/shopping-cart.847e4577.svg"
+  }
+}
