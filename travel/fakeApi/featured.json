@@ -1,0 +1,40 @@
+{
+    "Destinations": [
+        {
+            "Location": "Istanbul",
+            "Description": "Upptäck magiska Istanbul - Just nu kampanjpriser på flyg och hotell!",
+            "ImageUrl": "./featured-images/istanbul.jpg",
+            "LinkUrl": "https://www.sembo.se/d/hotell/turkiet"
+        },
+        {
+            "Location": "Spanien",
+            "Description": "Långa sandstränder, gnistrande klarblått vatten  och specialiteter som tapas och paella.",
+            "ImageUrl": "./featured-images/spanien.jpg",
+            "LinkUrl": "https://www.sembo.se/d/hotell/spanien"
+        },
+        {
+            "Location": "Kroatien",
+            "Description": "Kroatien - Just nu kampanjpriser på flyg och hotell!",
+            "ImageUrl": "./featured-images/kroatien.jpg",
+            "LinkUrl": "https://www.sembo.se/d/hotell/kroatien"
+        },
+        {
+            "Location": "Dubai",
+            "Description": "Upptäck staden som har allt - och lite till!",
+            "ImageUrl": "./featured-images/dubai.jpg",
+            "LinkUrl": "https://www.sembo.se/d/hotell/forenade-arabemiraten"
+        },
+        {
+            "Location": "Hong Kong",
+            "Description": "Staden som aldrig sover",
+            "ImageUrl": "./featured-images/hongkong.jpg",
+            "LinkUrl": "https://www.sembo.se/d/hotell/hong-kong"
+        },
+        {
+            "Location": "Thailand",
+            "Description": "Semester i Thailand med sol, bad, shopping och sand mellan tårna",
+            "ImageUrl": "./featured-images/thailand.jpg",
+            "LinkUrl": "https://www.sembo.se/d/hotell/thailand"
+        }
+    ]
+}

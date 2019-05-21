@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d4ce24f76c83d9cf70cfbb27a4692d15",
+    "revision": "64602f8913d8fa346da692157438534b",
     "url": "./index.html"
   },
   {
-    "revision": "aafb6de4b7963d71dac8",
-    "url": "./static/css/main.ff4c2138.chunk.css"
+    "revision": "69c84d0538faa1a7921c",
+    "url": "./static/css/main.58de7f56.chunk.css"
   },
   {
-    "revision": "9892ce493de12f90a342",
-    "url": "./static/js/2.89830c7b.chunk.js"
+    "revision": "4fcd49ae20da7e2d5ed9",
+    "url": "./static/js/2.6c5f7365.chunk.js"
   },
   {
-    "revision": "aafb6de4b7963d71dac8",
-    "url": "./static/js/main.30f48889.chunk.js"
+    "revision": "69c84d0538faa1a7921c",
+    "url": "./static/js/main.1461f809.chunk.js"
   },
   {
     "revision": "8c97409f0ee389fe75da",
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8ca261362253f6832c6dcc5d24d61143",
     "url": "./static/media/hamburger-icon-inactive.8ca26136.svg"
-  },
-  {
-    "revision": "93c9e45b607b5ae01ba3a064b280de6f",
-    "url": "./static/media/istanbul.93c9e45b.jpeg"
   },
   {
     "revision": "94e3dc55fd44d24922416259d8d18546",
