@@ -23,7 +23,7 @@
                 "CountryName": "Danmark",
                 "DestinationName": "Frederikshavn",
                 "RegionName": "Jylland",
-                "Image": "../hotels-images/danmark/thereef.jpg",
+                "Image": "./hotels-images/danmark/thereef.jpg",
                 "SemboSunRating": 3.5,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -57,7 +57,7 @@
                 "CountryName": "Danmark",
                 "DestinationName": "LEGOLAND® Billund",
                 "RegionName": "Jylland",
-                "Image": "../hotels-images/danmark/lalandia.jpg",
+                "Image": "./hotels-images/danmark/lalandia.jpg",
                 "SemboSunRating": 4,
                 "TypeOfHotel": "HouseOrCottage",
                 "Position": {
@@ -91,7 +91,7 @@
                 "CountryName": "Danmark",
                 "DestinationName": "LEGOLAND® Campingstugor",
                 "RegionName": "Jylland",
-                "Image": "../hotels-images/danmark/riis.jpg",
+                "Image": "./hotels-images/danmark/riis.jpg",
                 "SemboSunRating": 4,
                 "TypeOfHotel": "HouseOrCottage",
                 "Position": {
@@ -125,7 +125,7 @@
                 "CountryName": "Danmark",
                 "DestinationName": "LEGOLAND® Nära",
                 "RegionName": "Jylland",
-                "Image": "../hotels-images/danmark/kryb.jpg",
+                "Image": "./hotels-images/danmark/kryb.jpg",
                 "SemboSunRating": 3.5,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -159,7 +159,7 @@
                 "CountryName": "Danmark",
                 "DestinationName": "Aalborg Ålborg",
                 "RegionName": "Storstad",
-                "Image": "../hotels-images/danmark/helnan.jpg",
+                "Image": "./hotels-images/danmark/helnan.jpg",
                 "SemboSunRating": 3.5,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -193,7 +193,7 @@
                 "CountryName": "Danmark",
                 "DestinationName": "Sydjylland",
                 "RegionName": "Jylland",
-                "Image": "../hotels-images/danmark/scandic.jpg",
+                "Image": "./hotels-images/danmark/scandic.jpg",
                 "SemboSunRating": 3,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -227,7 +227,7 @@
                 "CountryName": "Danmark",
                 "DestinationName": "Mittjylland",
                 "RegionName": "Jylland",
-                "Image": "../hotels-images/danmark/trinity.jpg",
+                "Image": "./hotels-images/danmark/trinity.jpg",
                 "SemboSunRating": 4,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -261,7 +261,7 @@
                 "CountryName": "Danmark",
                 "DestinationName": "LEGOLAND® Nära",
                 "RegionName": "Jylland",
-                "Image": "../hotels-images/danmark/hotelpejseg.jpg",
+                "Image": "./hotels-images/danmark/hotelpejseg.jpg",
                 "SemboSunRating": 3,
                 "TypeOfHotel": "Hotel",
                 "Position": {

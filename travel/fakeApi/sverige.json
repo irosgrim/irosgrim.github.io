@@ -23,7 +23,7 @@
                 "CountryName": "Sverige",
                 "DestinationName": "Ystad",
                 "RegionName": "Södra Sverige",
-                "Image": "../hotels-images/sverige/ystadsaltsjobad.jpg",
+                "Image": "./hotels-images/sverige/ystadsaltsjobad.jpg",
                 "SemboSunRating": 4,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -57,7 +57,7 @@
                 "CountryName": "Sverige",
                 "DestinationName": "Falkenberg",
                 "RegionName": "Södra Sverige",
-                "Image": "../hotels-images/sverige/falkenbergstrandbad.jpg",
+                "Image": "./hotels-images/sverige/falkenbergstrandbad.jpg",
                 "SemboSunRating": 4,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -91,7 +91,7 @@
                 "CountryName": "Sverige",
                 "DestinationName": "Göteborg",
                 "RegionName": "Göteborg",
-                "Image": "../hotels-images/sverige/lisebergheden.jpg",
+                "Image": "./hotels-images/sverige/lisebergheden.jpg",
                 "SemboSunRating": 4,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -125,7 +125,7 @@
                 "CountryName": "Sverige",
                 "DestinationName": "Göteborg",
                 "RegionName": "Göteborg",
-                "Image": "../hotels-images/sverige/sparhotelmajorna.jpg",
+                "Image": "./hotels-images/sverige/sparhotelmajorna.jpg",
                 "SemboSunRating": 3,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -159,7 +159,7 @@
                 "CountryName": "Sverige",
                 "DestinationName": "Kosta Småland",
                 "RegionName": "Södra Sverige",
-                "Image": "../hotels-images/sverige/kostabodaarthotel.jpg",
+                "Image": "./hotels-images/sverige/kostabodaarthotel.jpg",
                 "SemboSunRating": 4.5,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -193,7 +193,7 @@
                 "CountryName": "Sverige",
                 "DestinationName": "Västerås",
                 "RegionName": "Mellersta Sverige",
-                "Image": "../hotels-images/sverige/thesteam.jpg",
+                "Image": "./hotels-images/sverige/thesteam.jpg",
                 "SemboSunRating": 4.5,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -227,7 +227,7 @@
                 "CountryName": "Sverige",
                 "DestinationName": "Malmö",
                 "RegionName": "Malmö",
-                "Image": "../hotels-images/sverige/qualityhotel.jpg",
+                "Image": "./hotels-images/sverige/qualityhotel.jpg",
                 "SemboSunRating": 4,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -261,7 +261,7 @@
                 "CountryName": "Sverige",
                 "DestinationName": "Göteborg",
                 "RegionName": "Göteborg",
-                "Image": "../hotels-images/sverige/sparhotelgarda.jpg",
+                "Image": "./hotels-images/sverige/sparhotelgarda.jpg",
                 "SemboSunRating": 3,
                 "TypeOfHotel": "Hotel",
                 "Position": {

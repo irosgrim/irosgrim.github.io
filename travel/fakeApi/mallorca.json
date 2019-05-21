@@ -23,7 +23,7 @@
                 "CountryName": "Spanien",
                 "DestinationName": "Alcudia",
                 "RegionName": "Mallorca",
-                "Image": "../hotels-images/mallorca/bellevue.jpg",
+                "Image": "./hotels-images/mallorca/bellevue.jpg",
                 "SemboSunRating": 3.0,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -60,7 +60,7 @@
                 "CountryName": "Spanien",
                 "DestinationName": "Santa Ponsa",
                 "RegionName": "Mallorca",
-                "Image": "../hotels-images/mallorca/trhjardin.jpg",
+                "Image": "./hotels-images/mallorca/trhjardin.jpg",
                 "SemboSunRating": 3.0,
                 "TypeOfHotel": "Apartment",
                 "Position": {
@@ -97,7 +97,7 @@
                 "CountryName": "Spanien",
                 "DestinationName": "Palma de Mallorca",
                 "RegionName": "Mallorca",
-                "Image": "../hotels-images/mallorca/bqbelvedere.jpg",
+                "Image": "./hotels-images/mallorca/bqbelvedere.jpg",
                 "SemboSunRating": 3,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -131,7 +131,7 @@
                 "CountryName": "Spanien",
                 "DestinationName": "Palma de Mallorca",
                 "RegionName": "Mallorca",
-                "Image": "../hotels-images/mallorca/beliveadults.jpg",
+                "Image": "./hotels-images/mallorca/beliveadults.jpg",
                 "SemboSunRating": 4.0,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -168,7 +168,7 @@
                 "CountryName": "Spanien",
                 "DestinationName": "Palma de Mallorca",
                 "RegionName": "Mallorca",
-                "Image": "../hotels-images/mallorca/hmjaime.jpg",
+                "Image": "./hotels-images/mallorca/hmjaime.jpg",
                 "SemboSunRating": 4.0,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -205,7 +205,7 @@
                 "CountryName": "Spanien",
                 "DestinationName": "Palma de Mallorca",
                 "RegionName": "Mallorca",
-                "Image": "../hotels-images/mallorca/cataloniamajorica.jpg",
+                "Image": "./hotels-images/mallorca/cataloniamajorica.jpg",
                 "SemboSunRating": 4.0,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -242,7 +242,7 @@
                 "CountryName": "Spanien",
                 "DestinationName": "Palma de Mallorca",
                 "RegionName": "Mallorca",
-                "Image": "../hotels-images/mallorca/bellevue.jpg",
+                "Image": "./hotels-images/mallorca/bellevue.jpg",
                 "SemboSunRating": 4.5,
                 "TypeOfHotel": "Apartment",
                 "Position": {
@@ -279,7 +279,7 @@
                 "CountryName": "Spanien",
                 "DestinationName": "Playa de Palma - Arenal - Can Pastilla",
                 "RegionName": "Mallorca",
-                "Image": "../hotels-images/mallorca/cataloniamajorica.jpg",
+                "Image": "./hotels-images/mallorca/cataloniamajorica.jpg",
                 "SemboSunRating": 3.5,
                 "TypeOfHotel": "Hotel",
                 "Position": {

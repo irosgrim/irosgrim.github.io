@@ -26,7 +26,7 @@
                 "CountryName": "Italien",
                 "DestinationName": "Rom",
                 "RegionName": "Storstäder",
-                "Image": "../hotels-images/italien/romelife.jpg",
+                "Image": "./hotels-images/italien/romelife.jpg",
                 "SemboSunRating": 4.0,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -60,7 +60,7 @@
                 "CountryName": "Italien",
                 "DestinationName": "Caorle",
                 "RegionName": "Adriakusten",
-                "Image": "../hotels-images/italien/villagio.jpg",
+                "Image": "./hotels-images/italien/villagio.jpg",
                 "SemboSunRating": 5,
                 "TypeOfHotel": "Apartment",
                 "Position": {
@@ -97,7 +97,7 @@
                 "CountryName": "Italien",
                 "DestinationName": "Rom",
                 "RegionName": "Storstäder",
-                "Image": "../hotels-images/italien/grandealbergo.jpg",
+                "Image": "./hotels-images/italien/grandealbergo.jpg",
                 "SemboSunRating": 3,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -134,7 +134,7 @@
                 "CountryName": "Italien",
                 "DestinationName": "Rom",
                 "RegionName": "Storstäder",
-                "Image": "../hotels-images/italien/radisson.jpg",
+                "Image": "./hotels-images/italien/radisson.jpg",
                 "SemboSunRating": 5.0,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -168,7 +168,7 @@
                 "CountryName": "Italien",
                 "DestinationName": "Bibione",
                 "RegionName": "Adriakusten",
-                "Image": "../hotels-images/italien/villagiolido.jpg",
+                "Image": "./hotels-images/italien/villagiolido.jpg",
                 "SemboSunRating": 4,
                 "TypeOfHotel": "Apartment",
                 "Position": {
@@ -202,7 +202,7 @@
                 "CountryName": "Italien",
                 "DestinationName": "Caorle",
                 "RegionName": "Adriakusten",
-                "Image": "../hotels-images/italien/albatros.jpg",
+                "Image": "./hotels-images/italien/albatros.jpg",
                 "SemboSunRating": 4,
                 "TypeOfHotel": "Apartment",
                 "Position": {
@@ -239,7 +239,7 @@
                 "CountryName": "Italien",
                 "DestinationName": "Cinque Terre med omnejd",
                 "RegionName": "Italienska Rivieran",
-                "Image": "../hotels-images/italien/grandealbergo.jpg",
+                "Image": "./hotels-images/italien/grandealbergo.jpg",
                 "SemboSunRating": 4,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -276,7 +276,7 @@
                 "CountryName": "Italien",
                 "DestinationName": "Rom",
                 "RegionName": "Storstäder",
-                "Image": "../hotels-images/italien/hotelportamaggiore.jpg",
+                "Image": "./hotels-images/italien/hotelportamaggiore.jpg",
                 "SemboSunRating": 3.5,
                 "TypeOfHotel": "Hotel",
                 "Position": {

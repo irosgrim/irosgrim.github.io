@@ -26,7 +26,7 @@
                 "CountryName": "Kroatien",
                 "DestinationName": "Pula",
                 "RegionName": "Istrien",
-                "Image": "../hotels-images/kroatien/parkplaza.jpg",
+                "Image": "./hotels-images/kroatien/parkplaza.jpg",
                 "SemboSunRating": 4.5,
                 "TypeOfHotel": "Apartment",
                 "Position": {
@@ -63,7 +63,7 @@
                 "CountryName": "Kroatien",
                 "DestinationName": "Pula",
                 "RegionName": "Istrien",
-                "Image": "../hotels-images/kroatien/splendidresort.jpg",
+                "Image": "./hotels-images/kroatien/splendidresort.jpg",
                 "SemboSunRating": 3,
                 "TypeOfHotel": "Apartment",
                 "Position": {
@@ -100,7 +100,7 @@
                 "CountryName": "Kroatien",
                 "DestinationName": "Pula",
                 "RegionName": "Istrien",
-                "Image": "../hotels-images/kroatien/verudelabeach.jpg",
+                "Image": "./hotels-images/kroatien/verudelabeach.jpg",
                 "SemboSunRating": 3,
                 "TypeOfHotel": "Apartment",
                 "Position": {
@@ -134,7 +134,7 @@
                 "CountryName": "Kroatien",
                 "DestinationName": "Rovinj",
                 "RegionName": "Istrien",
-                "Image": "../hotels-images/kroatien/resortamarin.jpg",
+                "Image": "./hotels-images/kroatien/resortamarin.jpg",
                 "SemboSunRating": 4,
                 "TypeOfHotel": "Apartment",
                 "Position": {
@@ -168,7 +168,7 @@
                 "CountryName": "Kroatien",
                 "DestinationName": "Ön Brac",
                 "RegionName": "Dalmatien",
-                "Image": "../hotels-images/kroatien/hotepastur.jpg",
+                "Image": "./hotels-images/kroatien/hotepastur.jpg",
                 "SemboSunRating": 4,
                 "TypeOfHotel": "Apartment",
                 "Position": {
@@ -202,7 +202,7 @@
                 "CountryName": "Kroatien",
                 "DestinationName": "Sibenik",
                 "RegionName": "Dalmatien",
-                "Image": "../hotels-images/kroatien/amadria.jpg",
+                "Image": "./hotels-images/kroatien/amadria.jpg",
                 "SemboSunRating": 4,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -236,7 +236,7 @@
                 "CountryName": "Kroatien",
                 "DestinationName": "Sibenik",
                 "RegionName": "Dalmatien",
-                "Image": "../hotels-images/kroatien/amadriapark.jpg",
+                "Image": "./hotels-images/kroatien/amadriapark.jpg",
                 "SemboSunRating": 4.5,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -270,7 +270,7 @@
                 "CountryName": "Kroatien",
                 "DestinationName": "Zadar",
                 "RegionName": "Dalmatien",
-                "Image": "../hotels-images/kroatien/sunnyside.jpg",
+                "Image": "./hotels-images/kroatien/sunnyside.jpg",
                 "SemboSunRating": 4.5,
                 "TypeOfHotel": "Apartment",
                 "Position": {
