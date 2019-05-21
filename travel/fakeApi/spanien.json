@@ -1,0 +1,294 @@
+{
+    "Hotels": [
+        {
+            "Accommodation": {
+                "HotelCode": "E-1281",
+                "HotelName": "Las Palmeras",
+                "OpeningParagraph": "- 200 meter till stranden\r\n- Centralt läge med utsikt mot marinan \r\n- 400 meter till tågstationen",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 1,
+                "CreatedDate": "2019-05-21 11:25:53",
+                "Price": { "Amount": 9226, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 2306.5, "Currency": "SEK" },
+                "NormalizedPrice": { "Amount": 329.5, "Currency": "SEK" },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 2,
+                "ChildrenAge": "7,5",
+                "Duration": 7,
+                "FromDate": "2019-07-07",
+                "ToDate": "2019-07-14",
+                "FromDateText": "7 jul",
+                "ToDateText": "14 jul",
+                "CountryName": "Spanien",
+                "DestinationName": "Fuengirola",
+                "RegionName": "Costa del Sol",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=189150.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 3,
+                "TypeOfHotel": "Hotel",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": -4.619906711470094 },
+                    "Latitude": { "DecimalDegrees": 36.54168277551753 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aE-1281\u0026fromDate=2019-07-07\u0026toDate=2019-07-14\u0026pax=rp7p5pp\u0026top=2000#state/chosenHotel=E-1281"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "E-76212",
+                "HotelName": "Bellevue Club Resort",
+                "OpeningParagraph": "BelleVue Club Resort ligger i Alcudia vid sjön, en fem minuters bilfärd från både Hidropark och Alcudias hamn.",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 0,
+                "CreatedDate": "2019-05-21 02:29:08",
+                "Price": { "Amount": 2883, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 1441.5, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 205.928571428571,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 0,
+                "ChildrenAge": "",
+                "Duration": 7,
+                "FromDate": "2019-10-04",
+                "ToDate": "2019-10-11",
+                "FromDateText": "4 okt",
+                "ToDateText": "11 okt",
+                "CountryName": "Spanien",
+                "DestinationName": "Alcudia",
+                "RegionName": "Mallorca",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=expediarapid\u0026nameOfImage=https:%2f%2fi.travelapi.com%2fhotels%2f1000000%2f910000%2f904100%2f904030%2f5cd8b496_z.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 3.0,
+                "TypeOfHotel": "Hotel",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 3.11069 },
+                    "Latitude": { "DecimalDegrees": 39.82932 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aE-76212\u0026fromDate=2019-10-04\u0026toDate=2019-10-11\u0026pax=rpp\u0026top=2000#state/chosenHotel=E-76212"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "156409",
+                "HotelName": "TRH Jardin Del Mar",
+                "OpeningParagraph": "TRH Jardin Del Mar ligger i Calvia på stranden, en tio minuters bilfärd från både Katmandu Park och Puerto Portals Marina.",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 0,
+                "CreatedDate": "2019-05-21 02:43:15",
+                "Price": { "Amount": 13171, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 3292.75, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 470.392857142857,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 2,
+                "ChildrenAge": "5,9",
+                "Duration": 7,
+                "FromDate": "2019-06-14",
+                "ToDate": "2019-06-21",
+                "FromDateText": "14 jun",
+                "ToDateText": "21 jun",
+                "CountryName": "Spanien",
+                "DestinationName": "Santa Ponsa",
+                "RegionName": "Mallorca",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=expediarapid\u0026nameOfImage=https:%2f%2fi.travelapi.com%2fhotels%2f1000000%2f980000%2f975400%2f975399%2f0e972f58_z.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 3.0,
+                "TypeOfHotel": "Apartment",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 2.47219 },
+                    "Latitude": { "DecimalDegrees": 39.52031 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3a156409\u0026fromDate=2019-06-14\u0026toDate=2019-06-21\u0026pax=rp5p9pp\u0026top=2000#state/chosenHotel=156409"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "E-1287",
+                "HotelName": "Soho Boutique Las Vegas",
+                "OpeningParagraph": "- Prisvärt och nära stranden\r\n- Bussförbindelse till centrum \r\n- Bra lokala restauranger i området",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 0,
+                "CreatedDate": "2019-05-21 01:01:00",
+                "Price": { "Amount": 10486, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 5243, "Currency": "SEK" },
+                "NormalizedPrice": { "Amount": 749, "Currency": "SEK" },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 0,
+                "ChildrenAge": "",
+                "Duration": 7,
+                "FromDate": "2019-06-01",
+                "ToDate": "2019-06-08",
+                "FromDateText": "1 jun",
+                "ToDateText": "8 jun",
+                "CountryName": "Spanien",
+                "DestinationName": "Malaga",
+                "RegionName": "Costa del Sol",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=190183.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 3.5,
+                "TypeOfHotel": "Hotel",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": -4.402580421551534 },
+                    "Latitude": { "DecimalDegrees": 36.72139409623994 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aE-1287\u0026fromDate=2019-06-01\u0026toDate=2019-06-08\u0026pax=rpp\u0026top=2000#state/chosenHotel=E-1287"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "E-701013",
+                "HotelName": "Rialto",
+                "OpeningParagraph": "Rialto ligger i Barcelona (i området Barri Gòtic), ett stenkast från La Rambla och en 4 minuters promenad från Gran Teatre del Liceu.",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 0,
+                "CreatedDate": "2019-05-21 07:09:47",
+                "Price": { "Amount": 10883, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 5441.5, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 777.357142857143,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 0,
+                "ChildrenAge": "",
+                "Duration": 7,
+                "FromDate": "2019-09-07",
+                "ToDate": "2019-09-14",
+                "FromDateText": "7 sep",
+                "ToDateText": "14 sep",
+                "CountryName": "Spanien",
+                "DestinationName": "Barcelona",
+                "RegionName": "Storstäder",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=expediarapid\u0026nameOfImage=https:%2f%2fi.travelapi.com%2fhotels%2f1000000%2f50000%2f48900%2f48852%2fb404d683_z.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 3.0,
+                "TypeOfHotel": "Hotel",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 2.17641 },
+                    "Latitude": { "DecimalDegrees": 41.382034 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aE-701013\u0026fromDate=2019-09-07\u0026toDate=2019-09-14\u0026pax=rpp\u0026top=2000#state/chosenHotel=E-701013"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "E-4034",
+                "HotelName": "Calabella",
+                "OpeningParagraph": "- Bästa läget i Nerja, intill Balcon de Europa\r\n- Trevlig atmosfär med familjär stämning\r\n- Uteserveringar och gågator runt hörnet",
+                "CustomerRating": 4.28342,
+                "CustomerReviewCount": 188,
+                "CreatedDate": "2019-05-21 10:45:53",
+                "Price": { "Amount": 5956, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 2978, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 425.428571428571,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 0,
+                "ChildrenAge": "",
+                "Duration": 7,
+                "FromDate": "2019-06-01",
+                "ToDate": "2019-06-08",
+                "FromDateText": "1 jun",
+                "ToDateText": "8 jun",
+                "CountryName": "Spanien",
+                "DestinationName": "Nerja",
+                "RegionName": "Costa del Sol",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=190487.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 3.5,
+                "TypeOfHotel": "Apartment",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": -3.875633105635643 },
+                    "Latitude": { "DecimalDegrees": 36.745381879710365 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aE-4034\u0026fromDate=2019-06-01\u0026toDate=2019-06-08\u0026pax=rpp\u0026top=2000#state/chosenHotel=E-4034"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "E-3041",
+                "HotelName": "Pierre \u0026 Vacances Residence Benidorm Levante",
+                "OpeningParagraph": "- Ljusa och rymliga lägenheter\r\n- Alla lägenheter med balkong\r\n- Plats för upp till 6 personer",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 0,
+                "CreatedDate": "2019-05-20 11:56:26",
+                "Price": { "Amount": 8131, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 2032.75, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 290.392857142857,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 2,
+                "ChildrenAge": "11,11",
+                "Duration": 7,
+                "FromDate": "2019-06-30",
+                "ToDate": "2019-07-07",
+                "FromDateText": "30 jun",
+                "ToDateText": "7 jul",
+                "CountryName": "Spanien",
+                "DestinationName": "Benidorm",
+                "RegionName": "Costa Blanca",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=181197.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 3,
+                "TypeOfHotel": "Apartment",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": -0.119693473788402 },
+                    "Latitude": { "DecimalDegrees": 38.54360762747566 }
+                },
+                "IsCarefullySelected": false,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aE-3041\u0026fromDate=2019-06-30\u0026toDate=2019-07-07\u0026pax=rp11p11pp\u0026top=2000#state/chosenHotel=E-3041"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "E-3052",
+                "HotelName": "Gran Vista",
+                "OpeningParagraph": "- Trevlig semesterby med utsikt över havet\r\n- Lugna omgivningar och fint poolområde\r\n- Trevligt inredda lägenheter i privat stil",
+                "CustomerRating": 4.30932,
+                "CustomerReviewCount": 238,
+                "CreatedDate": "2019-05-21 10:57:17",
+                "Price": { "Amount": 4846, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 2423, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 346.142857142857,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 0,
+                "ChildrenAge": "",
+                "Duration": 7,
+                "FromDate": "2019-06-01",
+                "ToDate": "2019-06-08",
+                "FromDateText": "1 jun",
+                "ToDateText": "8 jun",
+                "CountryName": "Spanien",
+                "DestinationName": "Alicante",
+                "RegionName": "Costa Blanca",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=89734.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 4,
+                "TypeOfHotel": "Apartment",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": -0.52186131477356 },
+                    "Latitude": { "DecimalDegrees": 38.22603593331012 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aE-3052\u0026fromDate=2019-06-01\u0026toDate=2019-06-08\u0026pax=rpp\u0026top=2000#state/chosenHotel=E-3052"
+            }
+        }
+    ]
+}

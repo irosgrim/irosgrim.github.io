@@ -1,0 +1,285 @@
+{
+    "Hotels": [
+        {
+            "Accommodation": {
+                "HotelCode": "HR-1515",
+                "HotelName": "Park Plaza Verudela Resort",
+                "OpeningParagraph": "- Smakfullt möblerade lägenheter för den stora familjen \r\n- Pulas bästa poolområde, perfekt för hela familjen\r\n- Strandnära - möjlighet till halvpension\r\n\r\n\r\n",
+                "CustomerRating": 3.85624,
+                "CustomerReviewCount": 634,
+                "CreatedDate": "2019-05-21 10:37:26",
+                "Price": { "Amount": 30777, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 7694.25, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 1099.17857142857,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 2,
+                "ChildrenAge": "4,14",
+                "Duration": 7,
+                "FromDate": "2019-07-31",
+                "ToDate": "2019-08-07",
+                "FromDateText": "31 jul",
+                "ToDateText": "7 aug",
+                "CountryName": "Kroatien",
+                "DestinationName": "Pula",
+                "RegionName": "Istrien",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=125886.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 4.5,
+                "TypeOfHotel": "Apartment",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 13.836926221847534 },
+                    "Latitude": { "DecimalDegrees": 44.836874760166225 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aHR-1515\u0026fromDate=2019-07-31\u0026toDate=2019-08-07\u0026pax=rp4p14pp\u0026top=2000#state/chosenHotel=HR-1515"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "HR-1518",
+                "HotelName": "Splendid Resort",
+                "OpeningParagraph": "- Populärt lägenhetshotell för barnfamiljer\r\n- Lägenheter för upp till 7 personer \r\n- Pool, separat barnpool \u0026 solterrass",
+                "CustomerRating": 4.07748,
+                "CustomerReviewCount": 557,
+                "CreatedDate": "2019-05-21 10:40:08",
+                "Price": { "Amount": 10908, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 2727, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 389.571428571429,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 2,
+                "ChildrenAge": "4,14",
+                "Duration": 7,
+                "FromDate": "2019-07-31",
+                "ToDate": "2019-08-07",
+                "FromDateText": "31 jul",
+                "ToDateText": "7 aug",
+                "CountryName": "Kroatien",
+                "DestinationName": "Pula",
+                "RegionName": "Istrien",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=126711.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 3,
+                "TypeOfHotel": "Apartment",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 13.832066059112548 },
+                    "Latitude": { "DecimalDegrees": 44.848034616873875 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aHR-1518\u0026fromDate=2019-07-31\u0026toDate=2019-08-07\u0026pax=rp4p14pp\u0026top=2000#state/chosenHotel=HR-1518"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "HR-1520",
+                "HotelName": "Verudela Beach \u0026 Villa Resort",
+                "OpeningParagraph": "- Familjeanläggning med lägenheter och villor - möjlighet till halvpension\r\n- Nära stranden i lugnt \u0026 bilfritt läge\r\n- Tillgång till Pulas bästa poolområde, ca 300 m bort",
+                "CustomerRating": 4.13613,
+                "CustomerReviewCount": 192,
+                "CreatedDate": "2019-05-21 10:37:26",
+                "Price": { "Amount": 13168, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 3292, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 470.285714285714,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 2,
+                "ChildrenAge": "4,14",
+                "Duration": 7,
+                "FromDate": "2019-07-31",
+                "ToDate": "2019-08-07",
+                "FromDateText": "31 jul",
+                "ToDateText": "7 aug",
+                "CountryName": "Kroatien",
+                "DestinationName": "Pula",
+                "RegionName": "Istrien",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=6414.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 3,
+                "TypeOfHotel": "Apartment",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 13.832978010177612 },
+                    "Latitude": { "DecimalDegrees": 44.83393799691696 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aHR-1520\u0026fromDate=2019-07-31\u0026toDate=2019-08-07\u0026pax=rp4p14pp\u0026top=2000#state/chosenHotel=HR-1520"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "HR-1312",
+                "HotelName": "Resort Amarin",
+                "OpeningParagraph": "- En riktig familjeklassiker\r\n- Mycket fina lägenheter för 3-6 pers\r\n- Stort aktivitetsutbud och härligt poolområde",
+                "CustomerRating": 4.02564,
+                "CustomerReviewCount": 117,
+                "CreatedDate": "2019-05-21 10:40:32",
+                "Price": { "Amount": 15624, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 3906, "Currency": "SEK" },
+                "NormalizedPrice": { "Amount": 558, "Currency": "SEK" },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 2,
+                "ChildrenAge": "4,14",
+                "Duration": 7,
+                "FromDate": "2019-07-31",
+                "ToDate": "2019-08-07",
+                "FromDateText": "31 jul",
+                "ToDateText": "7 aug",
+                "CountryName": "Kroatien",
+                "DestinationName": "Rovinj",
+                "RegionName": "Istrien",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=139188.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 4,
+                "TypeOfHotel": "Apartment",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 13.61943930387497 },
+                    "Latitude": { "DecimalDegrees": 45.10480945622406 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aHR-1312\u0026fromDate=2019-07-31\u0026toDate=2019-08-07\u0026pax=rp4p14pp\u0026top=2000#state/chosenHotel=HR-1312"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "HR-3121",
+                "HotelName": "Hotel \u0026 Apartments Pastura \u0026 Mendula",
+                "OpeningParagraph": "- Utmärkt familjeboende på ön Brac\r\n- På första parkett längs strandpromenaden\r\n- Nära till strand och restauranger i **Postira**",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 3,
+                "CreatedDate": "2019-05-21 11:36:47",
+                "Price": { "Amount": 18676, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 4669, "Currency": "SEK" },
+                "NormalizedPrice": { "Amount": 667, "Currency": "SEK" },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 2,
+                "ChildrenAge": "6,9",
+                "Duration": 7,
+                "FromDate": "2019-08-04",
+                "ToDate": "2019-08-11",
+                "FromDateText": "4 aug",
+                "ToDateText": "11 aug",
+                "CountryName": "Kroatien",
+                "DestinationName": "Ön Brac",
+                "RegionName": "Dalmatien",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=140623.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 4,
+                "TypeOfHotel": "Apartment",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 16.625753045082092 },
+                    "Latitude": { "DecimalDegrees": 43.37741694602101 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aHR-3121\u0026fromDate=2019-08-04\u0026toDate=2019-08-11\u0026pax=rp6p9pp\u0026top=2000#state/chosenHotel=HR-3121"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "HR-3103",
+                "HotelName": "Amadria Park Hotel Andrija",
+                "OpeningParagraph": "- Barnsligt kul på hela hotellet - för hela familjen!\r\n- Poolområde och aktiviteter\r\n- Granne med resortens Aquapark",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 4,
+                "CreatedDate": "2019-05-20 06:58:57",
+                "Price": { "Amount": 19320, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 4830, "Currency": "SEK" },
+                "NormalizedPrice": { "Amount": 690, "Currency": "SEK" },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 2,
+                "ChildrenAge": "10,4",
+                "Duration": 7,
+                "FromDate": "2019-07-26",
+                "ToDate": "2019-08-02",
+                "FromDateText": "26 jul",
+                "ToDateText": "2 aug",
+                "CountryName": "Kroatien",
+                "DestinationName": "Sibenik",
+                "RegionName": "Dalmatien",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=189014.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 4,
+                "TypeOfHotel": "Hotel",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 15.890569642822242 },
+                    "Latitude": { "DecimalDegrees": 43.69734047445919 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aHR-3103\u0026fromDate=2019-07-26\u0026toDate=2019-08-02\u0026pax=rp10p4pp\u0026top=2000#state/chosenHotel=HR-3103"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "HR-3107",
+                "HotelName": "Amadria Park Hotel Jure",
+                "OpeningParagraph": "- Härligt \"Life Style\"-hotell - möjlighet till halvpension\r\n- Ett stenkast från stranden\r\n- Poolområde, wellness och cocktail lounge",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 1,
+                "CreatedDate": "2019-05-21 10:41:27",
+                "Price": { "Amount": 24794, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 6198.5, "Currency": "SEK" },
+                "NormalizedPrice": { "Amount": 885.5, "Currency": "SEK" },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 2,
+                "ChildrenAge": "4,14",
+                "Duration": 7,
+                "FromDate": "2019-07-31",
+                "ToDate": "2019-08-07",
+                "FromDateText": "31 jul",
+                "ToDateText": "7 aug",
+                "CountryName": "Kroatien",
+                "DestinationName": "Sibenik",
+                "RegionName": "Dalmatien",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=181579.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 4.5,
+                "TypeOfHotel": "Hotel",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 15.88472778764742 },
+                    "Latitude": { "DecimalDegrees": 43.69535853863413 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aHR-3107\u0026fromDate=2019-07-31\u0026toDate=2019-08-07\u0026pax=rp4p14pp\u0026top=2000#state/chosenHotel=HR-3107"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "HR-2510",
+                "HotelName": "Sunnyside Apartments Petrcane",
+                "OpeningParagraph": "- Toppmoderna och fräscha lägenheter \r\n- Närhet till havet  och tillgång till skön utomhuspool\r\n- Wi-Fi och parkering ingår",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 0,
+                "CreatedDate": "2019-05-21 10:37:26",
+                "Price": { "Amount": 17689, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 4422.25, "Currency": "SEK" },
+                "NormalizedPrice": { "Amount": 631.75, "Currency": "SEK" },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 2,
+                "ChildrenAge": "4,14",
+                "Duration": 7,
+                "FromDate": "2019-07-31",
+                "ToDate": "2019-08-07",
+                "FromDateText": "31 jul",
+                "ToDateText": "7 aug",
+                "CountryName": "Kroatien",
+                "DestinationName": "Zadar",
+                "RegionName": "Dalmatien",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=188866.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 4.5,
+                "TypeOfHotel": "Apartment",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 15.150354816857884 },
+                    "Latitude": { "DecimalDegrees": 44.19186224947547 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aHR-2510\u0026fromDate=2019-07-31\u0026toDate=2019-08-07\u0026pax=rp4p14pp\u0026top=2000#state/chosenHotel=HR-2510"
+            }
+        }
+    ]
+}

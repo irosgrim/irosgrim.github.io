@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.10aa72d6.chunk.css",
-    "main.js": "./static/js/main.33c1c060.chunk.js",
-    "main.js.map": "./static/js/main.33c1c060.chunk.js.map",
+    "main.css": "./static/css/main.84b7b65b.chunk.css",
+    "main.js": "./static/js/main.4d7db93d.chunk.js",
+    "main.js.map": "./static/js/main.4d7db93d.chunk.js.map",
     "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
     "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
-    "static/js/2.d4e12954.chunk.js": "./static/js/2.d4e12954.chunk.js",
-    "static/js/2.d4e12954.chunk.js.map": "./static/js/2.d4e12954.chunk.js.map",
+    "static/js/2.89830c7b.chunk.js": "./static/js/2.89830c7b.chunk.js",
+    "static/js/2.89830c7b.chunk.js.map": "./static/js/2.89830c7b.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.613d34235b3267f1dbf73f9a9d6122b4.js": "./precache-manifest.613d34235b3267f1dbf73f9a9d6122b4.js",
+    "precache-manifest.9087854f31fec0835cde0ca63d997e45.js": "./precache-manifest.9087854f31fec0835cde0ca63d997e45.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.10aa72d6.chunk.css.map": "./static/css/main.10aa72d6.chunk.css.map",
+    "static/css/main.84b7b65b.chunk.css.map": "./static/css/main.84b7b65b.chunk.css.map",
     "static/media/dubai.jpg": "./static/media/dubai.ca70698c.jpg",
     "static/media/hamburger-icon-active.svg": "./static/media/hamburger-icon-active.880b17b8.svg",
     "static/media/hamburger-icon-inactive.svg": "./static/media/hamburger-icon-inactive.8ca26136.svg",
@@ -18,6 +18,7 @@
     "static/media/logo.png": "./static/media/logo.94e3dc55.png",
     "static/media/logo_white.png": "./static/media/logo_white.adc27e23.png",
     "static/media/search-icon.svg": "./static/media/search-icon.a6fb7699.svg",
-    "static/media/shopping-cart.svg": "./static/media/shopping-cart.847e4577.svg"
+    "static/media/shopping-cart.svg": "./static/media/shopping-cart.847e4577.svg",
+    "static/media/star.svg": "./static/media/star.b20c2937.svg"
   }
 }

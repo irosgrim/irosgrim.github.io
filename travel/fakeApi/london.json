@@ -1,0 +1,220 @@
+{
+    "Hotels": [
+        {
+            "Accommodation": {
+                "HotelCode": "GB-73067",
+                "HotelName": "Queens Park Hotel",
+                "OpeningParagraph": "Queens Park Hotel ligger centralt i London, ett stenkast från Kensington Gardens och en 12 minuters promenad från Hyde Park.",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 0,
+                "CreatedDate": "2019-05-21 01:12:23",
+                "Price": { "Amount": 5128, "Currency": "SEK" },
+                "PricePerPerson": {
+                    "Amount": 1709.3333333333333333333333333,
+                    "Currency": "SEK"
+                },
+                "NormalizedPrice": {
+                    "Amount": 854.666666666666,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 1,
+                "ChildrenAge": "4",
+                "Duration": 2,
+                "FromDate": "2019-05-24",
+                "ToDate": "2019-05-26",
+                "FromDateText": "24 maj",
+                "ToDateText": "26 maj",
+                "CountryName": "Storbritannien",
+                "DestinationName": "London",
+                "RegionName": "England",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=expediarapid\u0026nameOfImage=https:%2f%2fi.travelapi.com%2fhotels%2f1000000%2f20000%2f14800%2f14754%2f0ff363d4_z.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 3.0,
+                "TypeOfHotel": "Hotel",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": -0.185262 },
+                    "Latitude": { "DecimalDegrees": 51.51166 }
+                },
+                "IsCarefullySelected": false,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aGB-73067\u0026fromDate=2019-05-24\u0026toDate=2019-05-26\u0026pax=rppp4\u0026top=2000#state/chosenHotel=GB-73067"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "260636",
+                "HotelName": "St Giles London - A St Giles Hotel",
+                "OpeningParagraph": "St Giles London - A St Giles Hotel ligger i London (i området Centrala London), ett stenkast från Oxford Street och en 5 minuters promenad från Bri...",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 0,
+                "CreatedDate": "2019-05-20 01:02:55",
+                "Price": { "Amount": 4902, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 2451, "Currency": "SEK" },
+                "NormalizedPrice": { "Amount": 1225.5, "Currency": "SEK" },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 0,
+                "ChildrenAge": "",
+                "Duration": 2,
+                "FromDate": "2019-05-31",
+                "ToDate": "2019-06-02",
+                "FromDateText": "31 maj",
+                "ToDateText": "2 jun",
+                "CountryName": "Storbritannien",
+                "DestinationName": "London",
+                "RegionName": "England",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=expediarapid\u0026nameOfImage=https:%2f%2fi.travelapi.com%2fhotels%2f1000000%2f10000%2f700%2f614%2f046d2fde_z.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 3.0,
+                "TypeOfHotel": "Hotel",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": -0.130651 },
+                    "Latitude": { "DecimalDegrees": 51.517653 }
+                },
+                "IsCarefullySelected": false,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3a260636\u0026fromDate=2019-05-31\u0026toDate=2019-06-02\u0026pax=rpp\u0026top=2000#state/chosenHotel=260636"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "214656",
+                "HotelName": "Rest Up London - Hostel",
+                "OpeningParagraph": "Rest Up London - Hostel ligger centralt i London, en fem minuters bilfärd från både The Shard och Coca-Cola London Eye.",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 0,
+                "CreatedDate": "2019-05-21 01:12:23",
+                "Price": { "Amount": 1805, "Currency": "SEK" },
+                "PricePerPerson": {
+                    "Amount": 601.66666666666666666666666667,
+                    "Currency": "SEK"
+                },
+                "NormalizedPrice": {
+                    "Amount": 300.833333333333,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 1,
+                "ChildrenAge": "4",
+                "Duration": 2,
+                "FromDate": "2019-05-24",
+                "ToDate": "2019-05-26",
+                "FromDateText": "24 maj",
+                "ToDateText": "26 maj",
+                "CountryName": "Storbritannien",
+                "DestinationName": "London",
+                "RegionName": "England",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=expediarapid\u0026nameOfImage=https:%2f%2fi.travelapi.com%2fhotels%2f6000000%2f5570000%2f5568700%2f5568679%2f6774105f_z.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 2.0,
+                "TypeOfHotel": "Hotel",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": -0.090597 },
+                    "Latitude": { "DecimalDegrees": 51.494128 }
+                },
+                "IsCarefullySelected": false,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3a214656\u0026fromDate=2019-05-24\u0026toDate=2019-05-26\u0026pax=rppp4\u0026top=2000#state/chosenHotel=214656"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "GB-703044",
+                "HotelName": "Corus Hotel Hyde Park",
+                "OpeningParagraph": "Corus Hotel Hyde Park ligger centralt i London, ett stenkast från Kensington Gardens och en 4 minuters promenad från Hyde Park.",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 0,
+                "CreatedDate": "2019-05-20 01:02:55",
+                "Price": { "Amount": 4523, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 2261.5, "Currency": "SEK" },
+                "NormalizedPrice": { "Amount": 1130.75, "Currency": "SEK" },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 0,
+                "ChildrenAge": "",
+                "Duration": 2,
+                "FromDate": "2019-05-31",
+                "ToDate": "2019-06-02",
+                "FromDateText": "31 maj",
+                "ToDateText": "2 jun",
+                "CountryName": "Storbritannien",
+                "DestinationName": "London",
+                "RegionName": "England",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=expediarapid\u0026nameOfImage=https:%2f%2fi.travelapi.com%2fhotels%2f1000000%2f430000%2f428500%2f428403%2ffe9f0ca5_z.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 4.0,
+                "TypeOfHotel": "Hotel",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": -0.177745 },
+                    "Latitude": { "DecimalDegrees": 51.511753 }
+                },
+                "IsCarefullySelected": false,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aGB-703044\u0026fromDate=2019-05-31\u0026toDate=2019-06-02\u0026pax=rpp\u0026top=2000#state/chosenHotel=GB-703044"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "GB-73062",
+                "HotelName": "The Royal National Hotel",
+                "OpeningParagraph": "The Royal National Hotel ligger centralt i London, ett stenkast från Russell Square och en 9 minuters promenad från British Museum.",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 0,
+                "CreatedDate": "2019-05-20 01:02:55",
+                "Price": { "Amount": 3069, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 1534.5, "Currency": "SEK" },
+                "NormalizedPrice": { "Amount": 767.25, "Currency": "SEK" },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 0,
+                "ChildrenAge": "",
+                "Duration": 2,
+                "FromDate": "2019-05-31",
+                "ToDate": "2019-06-02",
+                "FromDateText": "31 maj",
+                "ToDateText": "2 jun",
+                "CountryName": "Storbritannien",
+                "DestinationName": "London",
+                "RegionName": "England",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=expediarapid\u0026nameOfImage=https:%2f%2fi.travelapi.com%2fhotels%2f1000000%2f60000%2f55100%2f55001%2f5018e8cb_z.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 3.0,
+                "TypeOfHotel": "Hotel",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": -0.127914 },
+                    "Latitude": { "DecimalDegrees": 51.52332 }
+                },
+                "IsCarefullySelected": false,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aGB-73062\u0026fromDate=2019-05-31\u0026toDate=2019-06-02\u0026pax=rpp\u0026top=2000#state/chosenHotel=GB-73062"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "GB-73077",
+                "HotelName": "Alexandra Hotel",
+                "OpeningParagraph": "I London-området Centrala London ligger Alexandra Hotel, en tio minuters promenad från Hyde Park and Kensington Gardens.",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 0,
+                "CreatedDate": "2019-05-20 01:02:55",
+                "Price": { "Amount": 3662, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 1831, "Currency": "SEK" },
+                "NormalizedPrice": { "Amount": 915.5, "Currency": "SEK" },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 0,
+                "ChildrenAge": "",
+                "Duration": 2,
+                "FromDate": "2019-05-31",
+                "ToDate": "2019-06-02",
+                "FromDateText": "31 maj",
+                "ToDateText": "2 jun",
+                "CountryName": "Storbritannien",
+                "DestinationName": "London",
+                "RegionName": "England",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=expediarapid\u0026nameOfImage=https:%2f%2fi.travelapi.com%2fhotels%2f3000000%2f2400000%2f2397500%2f2397500%2f64616cb4_z.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 2.5,
+                "TypeOfHotel": "Hotel",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": -0.172719 },
+                    "Latitude": { "DecimalDegrees": 51.514935 }
+                },
+                "IsCarefullySelected": false,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aGB-73077\u0026fromDate=2019-05-31\u0026toDate=2019-06-02\u0026pax=rpp\u0026top=2000#state/chosenHotel=GB-73077"
+            }
+        }
+    ]
+}

@@ -1,0 +1,297 @@
+{
+    "Hotels": [
+        {
+            "Accommodation": {
+                "HotelCode": "F-01143",
+                "HotelName": "Pierre \u0026 Vacances Premium Port Prestige",
+                "OpeningParagraph": "- Perfekt läge vid småbåtshamnen\r\n- Med gamla stan runt hörnet  \r\n- Fint poolområde och nära strand",
+                "CustomerRating": 3.96581,
+                "CustomerReviewCount": 117,
+                "CreatedDate": "2019-05-21 08:06:19",
+                "Price": { "Amount": 17108, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 4277, "Currency": "SEK" },
+                "NormalizedPrice": { "Amount": 611, "Currency": "SEK" },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 2,
+                "ChildrenAge": "11,11",
+                "Duration": 7,
+                "FromDate": "2019-06-22",
+                "ToDate": "2019-06-29",
+                "FromDateText": "22 jun",
+                "ToDateText": "29 jun",
+                "CountryName": "Frankrike",
+                "DestinationName": "Antibes Juan-les-Pins",
+                "RegionName": "Franska Rivieran",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=158005.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 4,
+                "TypeOfHotel": "Apartment",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 7.123086154460907 },
+                    "Latitude": { "DecimalDegrees": 43.583184843803096 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aF-01143\u0026fromDate=2019-06-22\u0026toDate=2019-06-29\u0026pax=rp11p11pp\u0026top=2000#state/chosenHotel=F-01143"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "F-01443",
+                "HotelName": "Pierre \u0026 Vacances Villa Francia",
+                "OpeningParagraph": "- Poolområde med tjusig havsutsikt\r\n- Ljusa och fräscha lägenheter\r\n- Vackert läge på höjderna ovanför Cannes",
+                "CustomerRating": 3.31897,
+                "CustomerReviewCount": 119,
+                "CreatedDate": "2019-05-21 08:06:19",
+                "Price": { "Amount": 7647, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 1911.75, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 273.107142857143,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 2,
+                "ChildrenAge": "11,11",
+                "Duration": 7,
+                "FromDate": "2019-06-22",
+                "ToDate": "2019-06-29",
+                "FromDateText": "22 jun",
+                "ToDateText": "29 jun",
+                "CountryName": "Frankrike",
+                "DestinationName": "Cannes",
+                "RegionName": "Franska Rivieran",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=51244.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 3.5,
+                "TypeOfHotel": "Apartment",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 6.990437507629395 },
+                    "Latitude": { "DecimalDegrees": 43.552976472609124 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aF-01443\u0026fromDate=2019-06-22\u0026toDate=2019-06-29\u0026pax=rp11p11pp\u0026top=2000#state/chosenHotel=F-01443"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "F-1141",
+                "HotelName": "Resideal Antibes",
+                "OpeningParagraph": "- Prisvärt lägenhetshotell \r\n- Två pooler \r\n- Promenadavstånd till gamla stan",
+                "CustomerRating": 3.40529,
+                "CustomerReviewCount": 231,
+                "CreatedDate": "2019-05-21 12:35:48",
+                "Price": { "Amount": 5661, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 2830.5, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 404.357142857143,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 0,
+                "ChildrenAge": "",
+                "Duration": 7,
+                "FromDate": "2019-06-19",
+                "ToDate": "2019-06-26",
+                "FromDateText": "19 jun",
+                "ToDateText": "26 jun",
+                "CountryName": "Frankrike",
+                "DestinationName": "Antibes Juan-les-Pins",
+                "RegionName": "Franska Rivieran",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=50312.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 3,
+                "TypeOfHotel": "Apartment",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 7.11738 },
+                    "Latitude": { "DecimalDegrees": 43.5903 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aF-1141\u0026fromDate=2019-06-19\u0026toDate=2019-06-26\u0026pax=rpp\u0026top=2000#state/chosenHotel=F-1141"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "F-01434",
+                "HotelName": "Pierre \u0026 Vacances Cannes Verrerie",
+                "OpeningParagraph": "- Stort och barnvänligt poolområde \r\n- Ljusa, fräscha lägenheter\r\n- Perfekt läge vid stranden i Cannes-la-Bocca",
+                "CustomerRating": 3.40141,
+                "CustomerReviewCount": 144,
+                "CreatedDate": "2019-05-21 08:06:19",
+                "Price": { "Amount": 7095, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 1773.75, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 253.392857142857,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 2,
+                "ChildrenAge": "11,11",
+                "Duration": 7,
+                "FromDate": "2019-06-22",
+                "ToDate": "2019-06-29",
+                "FromDateText": "22 jun",
+                "ToDateText": "29 jun",
+                "CountryName": "Frankrike",
+                "DestinationName": "Cannes",
+                "RegionName": "Franska Rivieran",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=51257.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 3,
+                "TypeOfHotel": "Apartment",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 6.980094909667969 },
+                    "Latitude": { "DecimalDegrees": 43.54838481128508 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aF-01434\u0026fromDate=2019-06-22\u0026toDate=2019-06-29\u0026pax=rp11p11pp\u0026top=2000#state/chosenHotel=F-01434"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "F-01048",
+                "HotelName": "Pierre \u0026 Vacances Héliotel Marine",
+                "OpeningParagraph": "- Välskött lägenhetshotell \r\n- Utomhuspool \r\n- Lugnt läge i St-Laurent-du-Var\r\n",
+                "CustomerRating": 3.81111,
+                "CustomerReviewCount": 92,
+                "CreatedDate": "2019-05-21 08:06:19",
+                "Price": { "Amount": 7233, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 1808.25, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 258.321428571429,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 2,
+                "ChildrenAge": "11,11",
+                "Duration": 7,
+                "FromDate": "2019-06-22",
+                "ToDate": "2019-06-29",
+                "FromDateText": "22 jun",
+                "ToDateText": "29 jun",
+                "CountryName": "Frankrike",
+                "DestinationName": "Nice",
+                "RegionName": "Franska Rivieran",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=149344.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 3.5,
+                "TypeOfHotel": "Apartment",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 7.17877782245426 },
+                    "Latitude": { "DecimalDegrees": 43.6582798281055 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aF-01048\u0026fromDate=2019-06-22\u0026toDate=2019-06-29\u0026pax=rp11p11pp\u0026top=2000#state/chosenHotel=F-01048"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "F-1441",
+                "HotelName": "Resideal Premium Cannes",
+                "OpeningParagraph": "- Modernt lägenhetshotell \r\n- Toppenläge i centrala Cannes\r\n- Fin trädgård med utomhuspool",
+                "CustomerRating": 4.07826,
+                "CustomerReviewCount": 119,
+                "CreatedDate": "2019-05-20 09:03:44",
+                "Price": { "Amount": 6105, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 3052.5, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 436.071428571429,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 0,
+                "ChildrenAge": "",
+                "Duration": 7,
+                "FromDate": "2019-06-08",
+                "ToDate": "2019-06-15",
+                "FromDateText": "8 jun",
+                "ToDateText": "15 jun",
+                "CountryName": "Frankrike",
+                "DestinationName": "Cannes",
+                "RegionName": "Franska Rivieran",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=88386.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 4,
+                "TypeOfHotel": "Apartment",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 7.027425169944763 },
+                    "Latitude": { "DecimalDegrees": 43.55099366431632 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aF-1441\u0026fromDate=2019-06-08\u0026toDate=2019-06-15\u0026pax=rpp\u0026top=2000#state/chosenHotel=F-1441"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "F-1440",
+                "HotelName": "Clarion Suites Cannes Croisette",
+                "OpeningParagraph": "- Fint lägenhetshotell \r\n- Utomhuspool och wellness\r\n- Gångavstånd till centrum och strand",
+                "CustomerRating": 4.04082,
+                "CustomerReviewCount": 98,
+                "CreatedDate": "2019-05-20 09:03:44",
+                "Price": { "Amount": 12041, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 6020.5, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 860.071428571429,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 0,
+                "ChildrenAge": "",
+                "Duration": 7,
+                "FromDate": "2019-06-08",
+                "ToDate": "2019-06-15",
+                "FromDateText": "8 jun",
+                "ToDateText": "15 jun",
+                "CountryName": "Frankrike",
+                "DestinationName": "Cannes",
+                "RegionName": "Franska Rivieran",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=163510.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 4,
+                "TypeOfHotel": "Apartment",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 7.030318401356112 },
+                    "Latitude": { "DecimalDegrees": 43.55003033648778 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aF-1440\u0026fromDate=2019-06-08\u0026toDate=2019-06-15\u0026pax=rpp\u0026top=2000#state/chosenHotel=F-1440"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "F-01841",
+                "HotelName": "Pierre \u0026 Vacances Resort Cap Esterel",
+                "OpeningParagraph": "- Resort med Rivierans bästa pooler\r\n- Området liknar en fransk småstad\r\n- Bilfritt",
+                "CustomerRating": 3.52459,
+                "CustomerReviewCount": 62,
+                "CreatedDate": "2019-05-21 08:06:19",
+                "Price": { "Amount": 6600, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 1650, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 235.714285714286,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 2,
+                "ChildrenAge": "11,11",
+                "Duration": 7,
+                "FromDate": "2019-06-22",
+                "ToDate": "2019-06-29",
+                "FromDateText": "22 jun",
+                "ToDateText": "29 jun",
+                "CountryName": "Frankrike",
+                "DestinationName": "Saint Raphael - Fréjus",
+                "RegionName": "Franska Rivieran",
+                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=141779.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "SemboSunRating": 3.5,
+                "TypeOfHotel": "Apartment",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 6.850351095199585 },
+                    "Latitude": { "DecimalDegrees": 43.42774905113968 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aF-01841\u0026fromDate=2019-06-22\u0026toDate=2019-06-29\u0026pax=rp11p11pp\u0026top=2000#state/chosenHotel=F-01841"
+            }
+        }
+    ]
+}
