@@ -1,0 +1,294 @@
+{
+    "Hotels": [
+        {
+            "Accommodation": {
+                "HotelCode": "E-76212",
+                "HotelName": "Bellevue Club Resort",
+                "OpeningParagraph": "BelleVue Club Resort ligger i Alcudia vid sjön, en fem minuters bilfärd från både Hidropark och Alcudias hamn.",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 0,
+                "CreatedDate": "2019-05-21 11:02:43",
+                "Price": { "Amount": 10808, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 5404, "Currency": "SEK" },
+                "NormalizedPrice": { "Amount": 772, "Currency": "SEK" },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 0,
+                "ChildrenAge": "",
+                "Duration": 7,
+                "FromDate": "2019-08-12",
+                "ToDate": "2019-08-19",
+                "FromDateText": "12 aug",
+                "ToDateText": "19 aug",
+                "CountryName": "Spanien",
+                "DestinationName": "Alcudia",
+                "RegionName": "Mallorca",
+                "Image": "../hotels-images/mallorca/bellevue.jpg",
+                "SemboSunRating": 3.0,
+                "TypeOfHotel": "Hotel",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 3.11069 },
+                    "Latitude": { "DecimalDegrees": 39.82932 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aE-76212\u0026fromDate=2019-08-12\u0026toDate=2019-08-19\u0026pax=rpp\u0026top=2000#state/chosenHotel=E-76212"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "156409",
+                "HotelName": "TRH Jardin Del Mar",
+                "OpeningParagraph": "TRH Jardin Del Mar ligger i Calvia på stranden, en tio minuters bilfärd från både Katmandu Park och Puerto Portals Marina.",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 0,
+                "CreatedDate": "2019-05-21 11:30:59",
+                "Price": { "Amount": 19212, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 4803, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 686.142857142857,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 2,
+                "ChildrenAge": "5,9",
+                "Duration": 7,
+                "FromDate": "2019-06-14",
+                "ToDate": "2019-06-21",
+                "FromDateText": "14 jun",
+                "ToDateText": "21 jun",
+                "CountryName": "Spanien",
+                "DestinationName": "Santa Ponsa",
+                "RegionName": "Mallorca",
+                "Image": "../hotels-images/mallorca/trhjardin.jpg",
+                "SemboSunRating": 3.0,
+                "TypeOfHotel": "Apartment",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 2.47219 },
+                    "Latitude": { "DecimalDegrees": 39.52031 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3a156409\u0026fromDate=2019-06-14\u0026toDate=2019-06-21\u0026pax=rp5p9pp\u0026top=2000#state/chosenHotel=156409"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "E-1270",
+                "HotelName": "BQ Belvedere",
+                "OpeningParagraph": "- Hotell i Cala Mayor med möjlighet till All Inclusive\r\n- Härligt poolområde\r\n- Gratis Wi-Fi inom hotellet",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 0,
+                "CreatedDate": "2019-05-21 12:00:01",
+                "Price": { "Amount": 10750, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 5375, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 767.857142857143,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 0,
+                "ChildrenAge": "",
+                "Duration": 7,
+                "FromDate": "2019-06-18",
+                "ToDate": "2019-06-25",
+                "FromDateText": "18 jun",
+                "ToDateText": "25 jun",
+                "CountryName": "Spanien",
+                "DestinationName": "Palma de Mallorca",
+                "RegionName": "Mallorca",
+                "Image": "../hotels-images/mallorca/bqbelvedere.jpg",
+                "SemboSunRating": 3,
+                "TypeOfHotel": "Hotel",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 2.599354127941865 },
+                    "Latitude": { "DecimalDegrees": 39.5544476392041 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aE-1270\u0026fromDate=2019-06-18\u0026toDate=2019-06-25\u0026pax=rpp\u0026top=2000#state/chosenHotel=E-1270"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "167552",
+                "HotelName": "Be Live Adults Only Marivent",
+                "OpeningParagraph": "Be Live Adults Only Marivent ligger i Palma de Mallorca på stranden, ett stenkast från Cala Mayors strand och 4 minuters bilfärd från Palma de Mall...",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 0,
+                "CreatedDate": "2019-05-21 12:00:01",
+                "Price": { "Amount": 10605, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 5302.5, "Currency": "SEK" },
+                "NormalizedPrice": { "Amount": 757.5, "Currency": "SEK" },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 0,
+                "ChildrenAge": "",
+                "Duration": 7,
+                "FromDate": "2019-06-18",
+                "ToDate": "2019-06-25",
+                "FromDateText": "18 jun",
+                "ToDateText": "25 jun",
+                "CountryName": "Spanien",
+                "DestinationName": "Palma de Mallorca",
+                "RegionName": "Mallorca",
+                "Image": "../hotels-images/mallorca/beliveadults.jpg",
+                "SemboSunRating": 4.0,
+                "TypeOfHotel": "Hotel",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 2.60639 },
+                    "Latitude": { "DecimalDegrees": 39.55258 }
+                },
+                "IsCarefullySelected": false,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3a167552\u0026fromDate=2019-06-18\u0026toDate=2019-06-25\u0026pax=rpp\u0026top=2000#state/chosenHotel=167552"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "E-76114",
+                "HotelName": "HM Jaime III Hotel",
+                "OpeningParagraph": "HM Jaime III Hotel ligger centralt i Palma de Mallorca, en 4 minuters promenad från Paseo Marítime och 11 minuter från Catedral de Santa María de P...",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 0,
+                "CreatedDate": "2019-05-21 12:00:01",
+                "Price": { "Amount": 15326, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 7663, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 1094.71428571429,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 0,
+                "ChildrenAge": "",
+                "Duration": 7,
+                "FromDate": "2019-06-18",
+                "ToDate": "2019-06-25",
+                "FromDateText": "18 jun",
+                "ToDateText": "25 jun",
+                "CountryName": "Spanien",
+                "DestinationName": "Palma de Mallorca",
+                "RegionName": "Mallorca",
+                "Image": "../hotels-images/mallorca/hmjaime.jpg",
+                "SemboSunRating": 4.0,
+                "TypeOfHotel": "Hotel",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 2.64239 },
+                    "Latitude": { "DecimalDegrees": 39.57269 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aE-76114\u0026fromDate=2019-06-18\u0026toDate=2019-06-25\u0026pax=rpp\u0026top=2000#state/chosenHotel=E-76114"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "E-706114",
+                "HotelName": "Catalonia Majorica Hotel",
+                "OpeningParagraph": "Catalonia Majorica Hotel ligger i Palma de Mallorca, en 4 minuters promenad från Paseo Marítime och 9 minuter från Palma de Mallorcas hamn, Palma d...",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 0,
+                "CreatedDate": "2019-05-21 12:00:01",
+                "Price": { "Amount": 10228, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 5114, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 730.571428571429,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 0,
+                "ChildrenAge": "",
+                "Duration": 7,
+                "FromDate": "2019-06-18",
+                "ToDate": "2019-06-25",
+                "FromDateText": "18 jun",
+                "ToDateText": "25 jun",
+                "CountryName": "Spanien",
+                "DestinationName": "Palma de Mallorca",
+                "RegionName": "Mallorca",
+                "Image": "../hotels-images/mallorca/cataloniamajorica.jpg",
+                "SemboSunRating": 4.0,
+                "TypeOfHotel": "Hotel",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 2.621996 },
+                    "Latitude": { "DecimalDegrees": 39.556008 }
+                },
+                "IsCarefullySelected": false,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aE-706114\u0026fromDate=2019-06-18\u0026toDate=2019-06-25\u0026pax=rpp\u0026top=2000#state/chosenHotel=E-706114"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "E-H79501",
+                "HotelName": "Palma Suites Hotel Residence",
+                "OpeningParagraph": "Palma Suites Hotel Residence är ett väletablerat lägenhetshotell Palma som ger hemmakänsla. Det har utmärkt bra faciliteter och jättefin utsikt över staden. Anläggningen ligger i centrum av Palma de Mallorca, 1 kilometer från stranden liksom från en marina och 8,5 kilometer från flygplatsen Palma de Mallorca liksom från ett akvarium.",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 0,
+                "CreatedDate": "2019-05-21 11:02:43",
+                "Price": { "Amount": 12609, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 6304.5, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 900.642857142857,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 0,
+                "ChildrenAge": "",
+                "Duration": 7,
+                "FromDate": "2019-08-12",
+                "ToDate": "2019-08-19",
+                "FromDateText": "12 aug",
+                "ToDateText": "19 aug",
+                "CountryName": "Spanien",
+                "DestinationName": "Palma de Mallorca",
+                "RegionName": "Mallorca",
+                "Image": "../hotels-images/mallorca/bellevue.jpg",
+                "SemboSunRating": 4.5,
+                "TypeOfHotel": "Apartment",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 2.65368863558194 },
+                    "Latitude": { "DecimalDegrees": 39.5703564729344 }
+                },
+                "IsCarefullySelected": false,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aE-H79501\u0026fromDate=2019-08-12\u0026toDate=2019-08-19\u0026pax=rpp\u0026top=2000#state/chosenHotel=E-H79501"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "14940",
+                "HotelName": "Hotel Playa",
+                "OpeningParagraph": "Detta hotell - enbart för vuxna - erbjuder avslappad atmosfär och härlig havsutsikt. Man vänder sig till affärsresenärer och semesterfirare och inte minst cyklister. År 2014 öppnade man en fullt utrustad cykelstation med plats för 69 cyklar för amatörer och halvprofessionella cyklister. Lokalbussen har hållplats på några meters avstånd, och i hotellets närmaste omgivning finns restauranger och butiker. Hotellet ligger 50 meter från stranden, 850 meter från Can Pastilla, 1,5 kilometer från centrum i Playa de Palma och 3,5 kilometer från flygplatsen Palma de Mallorca.",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 0,
+                "CreatedDate": "2019-05-21 11:02:43",
+                "Price": { "Amount": 14416, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 7208, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 1029.71428571429,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 0,
+                "ChildrenAge": "",
+                "Duration": 7,
+                "FromDate": "2019-08-12",
+                "ToDate": "2019-08-19",
+                "FromDateText": "12 aug",
+                "ToDateText": "19 aug",
+                "CountryName": "Spanien",
+                "DestinationName": "Playa de Palma - Arenal - Can Pastilla",
+                "RegionName": "Mallorca",
+                "Image": "../hotels-images/mallorca/cataloniamajorica.jpg",
+                "SemboSunRating": 3.5,
+                "TypeOfHotel": "Hotel",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 2.72414535284042 },
+                    "Latitude": { "DecimalDegrees": 39.5331261130895 }
+                },
+                "IsCarefullySelected": false,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3a14940\u0026fromDate=2019-08-12\u0026toDate=2019-08-19\u0026pax=rpp\u0026top=2000#state/chosenHotel=14940"
+            }
+        }
+    ]
+}

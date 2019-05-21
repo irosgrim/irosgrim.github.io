@@ -23,7 +23,7 @@
                 "CountryName": "Spanien",
                 "DestinationName": "Fuengirola",
                 "RegionName": "Costa del Sol",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=189150.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/spanien/laspalmeras.jpg",
                 "SemboSunRating": 3,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -60,7 +60,7 @@
                 "CountryName": "Spanien",
                 "DestinationName": "Alcudia",
                 "RegionName": "Mallorca",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=expediarapid\u0026nameOfImage=https:%2f%2fi.travelapi.com%2fhotels%2f1000000%2f910000%2f904100%2f904030%2f5cd8b496_z.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/spanien/bellevueclub.jpg",
                 "SemboSunRating": 3.0,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -97,7 +97,7 @@
                 "CountryName": "Spanien",
                 "DestinationName": "Santa Ponsa",
                 "RegionName": "Mallorca",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=expediarapid\u0026nameOfImage=https:%2f%2fi.travelapi.com%2fhotels%2f1000000%2f980000%2f975400%2f975399%2f0e972f58_z.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/spanien/trhjardindelmar.jpg",
                 "SemboSunRating": 3.0,
                 "TypeOfHotel": "Apartment",
                 "Position": {
@@ -131,7 +131,7 @@
                 "CountryName": "Spanien",
                 "DestinationName": "Malaga",
                 "RegionName": "Costa del Sol",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=190183.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/spanien/sohoboutique.jpg",
                 "SemboSunRating": 3.5,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -168,7 +168,7 @@
                 "CountryName": "Spanien",
                 "DestinationName": "Barcelona",
                 "RegionName": "Storstäder",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=expediarapid\u0026nameOfImage=https:%2f%2fi.travelapi.com%2fhotels%2f1000000%2f50000%2f48900%2f48852%2fb404d683_z.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/spanien/rialto.jpg",
                 "SemboSunRating": 3.0,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -205,7 +205,7 @@
                 "CountryName": "Spanien",
                 "DestinationName": "Nerja",
                 "RegionName": "Costa del Sol",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=190487.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/spanien/calabella.jpg",
                 "SemboSunRating": 3.5,
                 "TypeOfHotel": "Apartment",
                 "Position": {
@@ -242,7 +242,7 @@
                 "CountryName": "Spanien",
                 "DestinationName": "Benidorm",
                 "RegionName": "Costa Blanca",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=181197.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/spanien/pierrevacances.jpg",
                 "SemboSunRating": 3,
                 "TypeOfHotel": "Apartment",
                 "Position": {
@@ -279,7 +279,7 @@
                 "CountryName": "Spanien",
                 "DestinationName": "Alicante",
                 "RegionName": "Costa Blanca",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=89734.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/spanien/granvista.jpg",
                 "SemboSunRating": 4,
                 "TypeOfHotel": "Apartment",
                 "Position": {

@@ -23,7 +23,7 @@
                 "CountryName": "Sverige",
                 "DestinationName": "Ystad",
                 "RegionName": "Södra Sverige",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=166046.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/sverige/ystadsaltsjobad.jpg",
                 "SemboSunRating": 4,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -57,7 +57,7 @@
                 "CountryName": "Sverige",
                 "DestinationName": "Falkenberg",
                 "RegionName": "Södra Sverige",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=126377.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/sverige/falkenbergstrandbad.jpg",
                 "SemboSunRating": 4,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -91,7 +91,7 @@
                 "CountryName": "Sverige",
                 "DestinationName": "Göteborg",
                 "RegionName": "Göteborg",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=169153.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/sverige/lisebergheden.jpg",
                 "SemboSunRating": 4,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -125,7 +125,7 @@
                 "CountryName": "Sverige",
                 "DestinationName": "Göteborg",
                 "RegionName": "Göteborg",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=135060.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/sverige/sparhotelmajorna.jpg",
                 "SemboSunRating": 3,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -159,7 +159,7 @@
                 "CountryName": "Sverige",
                 "DestinationName": "Kosta Småland",
                 "RegionName": "Södra Sverige",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=158271.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/sverige/kostabodaarthotel.jpg",
                 "SemboSunRating": 4.5,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -193,7 +193,7 @@
                 "CountryName": "Sverige",
                 "DestinationName": "Västerås",
                 "RegionName": "Mellersta Sverige",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=181020.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/sverige/thesteam.jpg",
                 "SemboSunRating": 4.5,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -227,7 +227,7 @@
                 "CountryName": "Sverige",
                 "DestinationName": "Malmö",
                 "RegionName": "Malmö",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=186354.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/sverige/qualityhotel.jpg",
                 "SemboSunRating": 4,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -261,7 +261,7 @@
                 "CountryName": "Sverige",
                 "DestinationName": "Göteborg",
                 "RegionName": "Göteborg",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=120938.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/sverige/sparhotelgarda.jpg",
                 "SemboSunRating": 3,
                 "TypeOfHotel": "Hotel",
                 "Position": {

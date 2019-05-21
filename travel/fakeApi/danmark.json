@@ -23,7 +23,7 @@
                 "CountryName": "Danmark",
                 "DestinationName": "Frederikshavn",
                 "RegionName": "Jylland",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=87151.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/danmark/thereef.jpg",
                 "SemboSunRating": 3.5,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -57,7 +57,7 @@
                 "CountryName": "Danmark",
                 "DestinationName": "LEGOLAND® Billund",
                 "RegionName": "Jylland",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=189947.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/danmark/lalandia.jpg",
                 "SemboSunRating": 4,
                 "TypeOfHotel": "HouseOrCottage",
                 "Position": {
@@ -91,7 +91,7 @@
                 "CountryName": "Danmark",
                 "DestinationName": "LEGOLAND® Campingstugor",
                 "RegionName": "Jylland",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=66467.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/danmark/riis.jpg",
                 "SemboSunRating": 4,
                 "TypeOfHotel": "HouseOrCottage",
                 "Position": {
@@ -125,7 +125,7 @@
                 "CountryName": "Danmark",
                 "DestinationName": "LEGOLAND® Nära",
                 "RegionName": "Jylland",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=63937.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/danmark/kryb.jpg",
                 "SemboSunRating": 3.5,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -159,7 +159,7 @@
                 "CountryName": "Danmark",
                 "DestinationName": "Aalborg Ålborg",
                 "RegionName": "Storstad",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=62757.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/danmark/helnan.jpg",
                 "SemboSunRating": 3.5,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -193,7 +193,7 @@
                 "CountryName": "Danmark",
                 "DestinationName": "Sydjylland",
                 "RegionName": "Jylland",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=126942.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/danmark/scandic.jpg",
                 "SemboSunRating": 3,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -227,7 +227,7 @@
                 "CountryName": "Danmark",
                 "DestinationName": "Mittjylland",
                 "RegionName": "Jylland",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=178460.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/danmark/trinity.jpg",
                 "SemboSunRating": 4,
                 "TypeOfHotel": "Hotel",
                 "Position": {
@@ -261,7 +261,7 @@
                 "CountryName": "Danmark",
                 "DestinationName": "LEGOLAND® Nära",
                 "RegionName": "Jylland",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=72152.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/danmark/hotelpejseg.jpg",
                 "SemboSunRating": 3,
                 "TypeOfHotel": "Hotel",
                 "Position": {

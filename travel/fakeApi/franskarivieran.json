@@ -23,7 +23,7 @@
                 "CountryName": "Frankrike",
                 "DestinationName": "Antibes Juan-les-Pins",
                 "RegionName": "Franska Rivieran",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=158005.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/franskarivieran/pierrevacances_.jpg",
                 "SemboSunRating": 4,
                 "TypeOfHotel": "Apartment",
                 "Position": {
@@ -60,7 +60,7 @@
                 "CountryName": "Frankrike",
                 "DestinationName": "Cannes",
                 "RegionName": "Franska Rivieran",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=51244.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/franskarivieran/pierrevacances.jpg",
                 "SemboSunRating": 3.5,
                 "TypeOfHotel": "Apartment",
                 "Position": {
@@ -97,7 +97,7 @@
                 "CountryName": "Frankrike",
                 "DestinationName": "Antibes Juan-les-Pins",
                 "RegionName": "Franska Rivieran",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=50312.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/franskarivieran/residealantibes.jpg",
                 "SemboSunRating": 3,
                 "TypeOfHotel": "Apartment",
                 "Position": {
@@ -134,7 +134,7 @@
                 "CountryName": "Frankrike",
                 "DestinationName": "Cannes",
                 "RegionName": "Franska Rivieran",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=51257.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/franskarivieran/pierrevacances2.jpg",
                 "SemboSunRating": 3,
                 "TypeOfHotel": "Apartment",
                 "Position": {
@@ -171,7 +171,7 @@
                 "CountryName": "Frankrike",
                 "DestinationName": "Nice",
                 "RegionName": "Franska Rivieran",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=149344.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/franskarivieran/pierrevacances3.jpg",
                 "SemboSunRating": 3.5,
                 "TypeOfHotel": "Apartment",
                 "Position": {
@@ -208,7 +208,7 @@
                 "CountryName": "Frankrike",
                 "DestinationName": "Cannes",
                 "RegionName": "Franska Rivieran",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=88386.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/franskarivieran/residealpremiumcannes.jpg",
                 "SemboSunRating": 4,
                 "TypeOfHotel": "Apartment",
                 "Position": {
@@ -245,7 +245,7 @@
                 "CountryName": "Frankrike",
                 "DestinationName": "Cannes",
                 "RegionName": "Franska Rivieran",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=163510.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/franskarivieran/clarionsuitescannes.jpg",
                 "SemboSunRating": 4,
                 "TypeOfHotel": "Apartment",
                 "Position": {
@@ -282,7 +282,7 @@
                 "CountryName": "Frankrike",
                 "DestinationName": "Saint Raphael - Fréjus",
                 "RegionName": "Franska Rivieran",
-                "Image": "https://images.sembo.se/ImageService/ImageHandler.ashx?service=sembo\u0026nameOfImage=141779.jpg\u0026resizeMode=FitInside\u0026formatSettings=jpeg(quality-90)",
+                "Image": "../hotels-images/franskarivieran/pierrevacances4.jpg",
                 "SemboSunRating": 3.5,
                 "TypeOfHotel": "Apartment",
                 "Position": {

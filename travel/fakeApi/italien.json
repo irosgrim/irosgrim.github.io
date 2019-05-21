@@ -1,0 +1,291 @@
+{
+    "Hotels": [
+        {
+            "Accommodation": {
+                "HotelCode": "I-H103979",
+                "HotelName": "Rome Life Hotel",
+                "OpeningParagraph": "Rome Life Hotel ligger mitt i Rom, en 2 minuters promenad från Palazzo delle Esposizioni och 11 minuter från Fori Imperiali.",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 0,
+                "CreatedDate": "2019-05-21 11:49:46",
+                "Price": { "Amount": 15474, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 7737, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 1105.28571428571,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 0,
+                "ChildrenAge": "",
+                "Duration": 7,
+                "FromDate": "2019-07-13",
+                "ToDate": "2019-07-20",
+                "FromDateText": "13 jul",
+                "ToDateText": "20 jul",
+                "CountryName": "Italien",
+                "DestinationName": "Rom",
+                "RegionName": "Storstäder",
+                "Image": "../hotels-images/italien/romelife.jpg",
+                "SemboSunRating": 4.0,
+                "TypeOfHotel": "Hotel",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 12.491613 },
+                    "Latitude": { "DecimalDegrees": 41.898657 }
+                },
+                "IsCarefullySelected": false,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aI-H103979\u0026fromDate=2019-07-13\u0026toDate=2019-07-20\u0026pax=rpp\u0026top=2000#state/chosenHotel=I-H103979"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "I-4244",
+                "HotelName": "Villaggio Hemingway",
+                "OpeningParagraph": "- Boende med hög standard, en av våra kunders favoriter\r\n- Härligt poolområde med en uppvärmd pool\r\n- Nära skön sandstrand\r\n\r\n",
+                "CustomerRating": 4.20935,
+                "CustomerReviewCount": 495,
+                "CreatedDate": "2019-05-21 03:26:23",
+                "Price": { "Amount": 12810, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 3202.5, "Currency": "SEK" },
+                "NormalizedPrice": { "Amount": 457.5, "Currency": "SEK" },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 2,
+                "ChildrenAge": "19,16",
+                "Duration": 7,
+                "FromDate": "2019-06-29",
+                "ToDate": "2019-07-06",
+                "FromDateText": "29 jun",
+                "ToDateText": "6 jul",
+                "CountryName": "Italien",
+                "DestinationName": "Caorle",
+                "RegionName": "Adriakusten",
+                "Image": "../hotels-images/italien/villagio.jpg",
+                "SemboSunRating": 5,
+                "TypeOfHotel": "Apartment",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 12.88895308971405 },
+                    "Latitude": { "DecimalDegrees": 45.60650219138552 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aI-4244\u0026fromDate=2019-06-29\u0026toDate=2019-07-06\u0026pax=rp19p16pp\u0026top=2000#state/chosenHotel=I-4244"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "17662",
+                "HotelName": "Colony Hotel",
+                "OpeningParagraph": "Ligger norr om Rom, nära Olympiastadion och ca 5 km från stadens centrum.",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 0,
+                "CreatedDate": "2019-05-21 11:49:46",
+                "Price": { "Amount": 2589, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 1294.5, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 184.928571428571,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 0,
+                "ChildrenAge": "",
+                "Duration": 7,
+                "FromDate": "2019-07-13",
+                "ToDate": "2019-07-20",
+                "FromDateText": "13 jul",
+                "ToDateText": "20 jul",
+                "CountryName": "Italien",
+                "DestinationName": "Rom",
+                "RegionName": "Storstäder",
+                "Image": "../hotels-images/italien/grandealbergo.jpg",
+                "SemboSunRating": 3,
+                "TypeOfHotel": "Hotel",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 12.4724757671356 },
+                    "Latitude": { "DecimalDegrees": 41.9491775021474 }
+                },
+                "IsCarefullySelected": false,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3a17662\u0026fromDate=2019-07-13\u0026toDate=2019-07-20\u0026pax=rpp\u0026top=2000#state/chosenHotel=17662"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "I-3579",
+                "HotelName": "Radisson Blu Es. Hotel, Roma",
+                "OpeningParagraph": "Radisson Blu es.",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 0,
+                "CreatedDate": "2019-05-21 11:49:46",
+                "Price": { "Amount": 12317, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 6158.5, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 879.785714285714,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 0,
+                "ChildrenAge": "",
+                "Duration": 7,
+                "FromDate": "2019-07-13",
+                "ToDate": "2019-07-20",
+                "FromDateText": "13 jul",
+                "ToDateText": "20 jul",
+                "CountryName": "Italien",
+                "DestinationName": "Rom",
+                "RegionName": "Storstäder",
+                "Image": "../hotels-images/italien/radisson.jpg",
+                "SemboSunRating": 5.0,
+                "TypeOfHotel": "Hotel",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 12.50654 },
+                    "Latitude": { "DecimalDegrees": 41.8961 }
+                },
+                "IsCarefullySelected": false,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aI-3579\u0026fromDate=2019-07-13\u0026toDate=2019-07-20\u0026pax=rpp\u0026top=2000#state/chosenHotel=I-3579"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "I-4141",
+                "HotelName": "Villaggio Lido Del Sole",
+                "OpeningParagraph": "- En riktig familjefavorit\r\n- Stora gröna ytor\r\n- Härliga poolområden",
+                "CustomerRating": 3.97816,
+                "CustomerReviewCount": 873,
+                "CreatedDate": "2019-05-21 11:49:46",
+                "Price": { "Amount": 8575, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 4287.5, "Currency": "SEK" },
+                "NormalizedPrice": { "Amount": 612.5, "Currency": "SEK" },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 0,
+                "ChildrenAge": "",
+                "Duration": 7,
+                "FromDate": "2019-07-13",
+                "ToDate": "2019-07-20",
+                "FromDateText": "13 jul",
+                "ToDateText": "20 jul",
+                "CountryName": "Italien",
+                "DestinationName": "Bibione",
+                "RegionName": "Adriakusten",
+                "Image": "../hotels-images/italien/villagiolido.jpg",
+                "SemboSunRating": 4,
+                "TypeOfHotel": "Apartment",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 13.029321134090423 },
+                    "Latitude": { "DecimalDegrees": 45.63684329286621 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aI-4141\u0026fromDate=2019-07-13\u0026toDate=2019-07-20\u0026pax=rpp\u0026top=2000#state/chosenHotel=I-4141"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "I-4233",
+                "HotelName": "Albatros",
+                "OpeningParagraph": "- Mycket centralt läge\r\n- Trivsamma, rymliga lägenheter\r\n- Fint poolområde",
+                "CustomerRating": 4.00156,
+                "CustomerReviewCount": 643,
+                "CreatedDate": "2019-05-21 03:26:23",
+                "Price": { "Amount": 6650, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 1662.5, "Currency": "SEK" },
+                "NormalizedPrice": { "Amount": 237.5, "Currency": "SEK" },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 2,
+                "ChildrenAge": "19,16",
+                "Duration": 7,
+                "FromDate": "2019-06-29",
+                "ToDate": "2019-07-06",
+                "FromDateText": "29 jun",
+                "ToDateText": "6 jul",
+                "CountryName": "Italien",
+                "DestinationName": "Caorle",
+                "RegionName": "Adriakusten",
+                "Image": "../hotels-images/italien/albatros.jpg",
+                "SemboSunRating": 4,
+                "TypeOfHotel": "Apartment",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 12.880117893218994 },
+                    "Latitude": { "DecimalDegrees": 45.60219750537797 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aI-4233\u0026fromDate=2019-06-29\u0026toDate=2019-07-06\u0026pax=rp19p16pp\u0026top=2000#state/chosenHotel=I-4233"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "I-2615",
+                "HotelName": "Grande Albergo",
+                "OpeningParagraph": "- Ligger mitt på strandpromenaden i Sestri Levante\r\n- Flera utflyktsmöjligheter, t.ex. Santa Margherita Ligure\r\n- Panoramavy från hotellets utomhuspool",
+                "CustomerRating": 0,
+                "CustomerReviewCount": 4,
+                "CreatedDate": "2019-05-21 11:49:46",
+                "Price": { "Amount": 14244, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 7122, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 1017.42857142857,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 0,
+                "ChildrenAge": "",
+                "Duration": 7,
+                "FromDate": "2019-07-13",
+                "ToDate": "2019-07-20",
+                "FromDateText": "13 jul",
+                "ToDateText": "20 jul",
+                "CountryName": "Italien",
+                "DestinationName": "Cinque Terre med omnejd",
+                "RegionName": "Italienska Rivieran",
+                "Image": "../hotels-images/italien/grandealbergo.jpg",
+                "SemboSunRating": 4,
+                "TypeOfHotel": "Hotel",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 9.394664764404296 },
+                    "Latitude": { "DecimalDegrees": 44.27311167229207 }
+                },
+                "IsCarefullySelected": true,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aI-2615\u0026fromDate=2019-07-13\u0026toDate=2019-07-20\u0026pax=rpp\u0026top=2000#state/chosenHotel=I-2615"
+            }
+        },
+        {
+            "Accommodation": {
+                "HotelCode": "I-3543",
+                "HotelName": "Hotel Portamaggiore",
+                "OpeningParagraph": "- Härlig solterrass\r\n- Tillhörande populär restaurang \r\n- Promenavstånd från Colosseum",
+                "CustomerRating": 3.71277,
+                "CustomerReviewCount": 97,
+                "CreatedDate": "2019-05-21 11:49:46",
+                "Price": { "Amount": 5877, "Currency": "SEK" },
+                "PricePerPerson": { "Amount": 2938.5, "Currency": "SEK" },
+                "NormalizedPrice": {
+                    "Amount": 419.785714285714,
+                    "Currency": "SEK"
+                },
+                "Adults": 2,
+                "FlightInformation": null,
+                "Children": 0,
+                "ChildrenAge": "",
+                "Duration": 7,
+                "FromDate": "2019-07-13",
+                "ToDate": "2019-07-20",
+                "FromDateText": "13 jul",
+                "ToDateText": "20 jul",
+                "CountryName": "Italien",
+                "DestinationName": "Rom",
+                "RegionName": "Storstäder",
+                "Image": "../hotels-images/italien/hotelportamaggiore.jpg",
+                "SemboSunRating": 3.5,
+                "TypeOfHotel": "Hotel",
+                "Position": {
+                    "Longitude": { "DecimalDegrees": 12.513844817876815 },
+                    "Latitude": { "DecimalDegrees": 41.891336226641165 }
+                },
+                "IsCarefullySelected": false,
+                "Link": "https://www.sembo.se/d/Hotels/Search.aspx?q=hotel-code%3aI-3543\u0026fromDate=2019-07-13\u0026toDate=2019-07-20\u0026pax=rpp\u0026top=2000#state/chosenHotel=I-3543"
+            }
+        }
+    ]
+}
