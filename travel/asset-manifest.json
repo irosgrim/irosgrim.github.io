@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.84b7b65b.chunk.css",
+    "main.css": "./static/css/main.ff4c2138.chunk.css",
     "main.js": "./static/js/main.30f48889.chunk.js",
     "main.js.map": "./static/js/main.30f48889.chunk.js.map",
     "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
@@ -8,9 +8,9 @@
     "static/js/2.89830c7b.chunk.js": "./static/js/2.89830c7b.chunk.js",
     "static/js/2.89830c7b.chunk.js.map": "./static/js/2.89830c7b.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.27bbbaf8a5a99bc41a47546a8e0fdd5a.js": "./precache-manifest.27bbbaf8a5a99bc41a47546a8e0fdd5a.js",
+    "precache-manifest.56561d6e6b044cd0302366106bff4d92.js": "./precache-manifest.56561d6e6b044cd0302366106bff4d92.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.84b7b65b.chunk.css.map": "./static/css/main.84b7b65b.chunk.css.map",
+    "static/css/main.ff4c2138.chunk.css.map": "./static/css/main.ff4c2138.chunk.css.map",
     "static/media/dubai.jpg": "./static/media/dubai.ca70698c.jpg",
     "static/media/hamburger-icon-active.svg": "./static/media/hamburger-icon-active.880b17b8.svg",
     "static/media/hamburger-icon-inactive.svg": "./static/media/hamburger-icon-inactive.8ca26136.svg",
