@@ -1,0 +1,94 @@
+{
+    "articles": [
+        {
+            "title": "Note taking app",
+            "text": "Experimenting with React.js and inspired by the MacOs Notes app. <br/> By clicking on the picture, you can see the app in action.",
+            "sourceCode": {
+                "text": "Link to source code: ",
+                "linkText": "https://github.com/irosgrim/notes",
+                "link": "https://github.com/irosgrim/notes"
+            },
+            "imageUrl": "./imgs/note-app.png",
+            "imageAlt": "react note app",
+            "articleLink": "https://irosgrim.github.io/loancalculator/",
+            "stack": [
+                "React.js",
+                "CSS",
+                "HTML",
+                "SketchApp"
+            ]
+        },
+        {
+            "title": "Budget Planner app",
+            "text": "Experimenting with React.js and based on a React.js donut chart component I made. <br/> By clicking on the picture, you can see the app in action.",
+            "sourceCode": {
+                "text": "Link to source code: ",
+                "linkText": "https://github.com/irosgrim/budgetplanner",
+                "link": "https://github.com/irosgrim/budgetplanner"
+            },
+            "imageUrl": "./imgs/budgetplanner.png",
+            "imageAlt": "react.js budget planner app",
+            "articleLink": "https://irosgrim.github.io/budgetplanner/",
+            "stack": [
+                "React.js",
+                "CSS",
+                "HTML",
+                "SketchApp"
+            ]
+        },
+        {
+            "title": "Calculator project",
+            "text": "Inspired by the MacOs calculator and trying to do as much as possible with vanilla JS and CSS grid",
+            "sourceCode": {
+                "text": "Link to source code: ",
+                "linkText": "https://irosgrim.github.io/calculator/js/v2.js",
+                "link": "https://irosgrim.github.io/calculator/js/v2.js"
+            },
+            "imageUrl": "./imgs/calculator.png",
+            "imageAlt": "js calculator app",
+            "articleLink": "https://irosgrim.github.io/calculator/",
+            "stack": [
+                "Vanilla JS",
+                "CSS",
+                "HTML",
+                "SketchApp"
+            ]
+        },
+        {
+            "title": "Loan Calculator",
+            "text": "Experimenting with Vue.js and part of an assignment",
+            "sourceCode": {
+                "text": "Link to source code: ",
+                "linkText": "https://github.com/irosgrim/loancalculator",
+                "link": "https://github.com/irosgrim/loancalculator"
+            },
+            "imageUrl": "./imgs/loan-calculator.png",
+            "imageAlt": "vue.js loan calculator app",
+            "articleLink": "https://irosgrim.github.io/loancalculator/",
+            "stack": [
+                "Vue.js",
+                "CSS",
+                "HTML",
+                "SketchApp"
+            ]
+        },
+        {
+            "title": "React.js Todo app",
+            "text": "Experimenting with React.js and localStorage",
+            "sourceCode": {
+                "text": "Link to source code: ",
+                "linkText": "https://github.com/irosgrim/great-todo",
+                "link": "https://github.com/irosgrim/great-todo"
+            },
+            "imageUrl": "./imgs/todo.png",
+            "imageAlt": "react.js todo app",
+            "articleLink": "https://irosgrim.github.io/great-todo/",
+            "stack": [
+                "React.js",
+                "CSS",
+                "HTML",
+                "SketchApp"
+            ]
+        }
+    ]
+}
