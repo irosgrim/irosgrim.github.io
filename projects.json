@@ -1,6 +1,24 @@
 {
     "articles": [
         {
+            "title": "Date range picker component",
+            "text": "A simple date range picker component. Inspired by Airbnb date picker. <br/> By clicking on the picture, you can see the app in action.",
+            "sourceCode": {
+                "text": "Link to source code: ",
+                "linkText": "https://github.com/irosgrim/date-picker",
+                "link": "https://github.com/irosgrim/date-picker"
+            },
+            "imageUrl": "https://irosgrim.github.io/date-picker/date-picker.png",
+            "imageAlt": "date range picker",
+            "articleLink": "https://irosgrim.github.io/date-picker/dist/",
+            "stack": [
+                "Vue.js",
+                "Typescript",
+                "CSS",
+                "HTML"
+            ]
+        },
+        {
             "title": "Note taking app",
             "text": "Experimenting with React.js and inspired by the MacOs Notes app. <br/> By clicking on the picture, you can see the app in action.",
             "sourceCode": {
