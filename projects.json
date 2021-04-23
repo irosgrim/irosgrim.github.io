@@ -28,7 +28,7 @@
             },
             "imageUrl": "./imgs/note-app.png",
             "imageAlt": "react note app",
-            "articleLink": "https://irosgrim.github.io/loancalculator/",
+            "articleLink": "https://irosgrim.github.io/notes/",
             "stack": [
                 "React.js",
                 "CSS",
