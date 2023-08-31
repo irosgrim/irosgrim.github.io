@@ -3,8 +3,6 @@ console.log(`
 //  By Ion Rosgrim
 //  Calculator V2
 //  All the functions work as expected
-//  https://github.com/irosgrim
-//  February, 2019
 /////////////////////////////////`);
 
 // global variables/constants
