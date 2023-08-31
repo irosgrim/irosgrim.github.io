@@ -1,8 +1,6 @@
 console.log(`
 //////////////////////////////////
-//  By Ion Rosgrim
 //  Calculator V2
-//  All the functions work as expected
 /////////////////////////////////`);
 
 // global variables/constants
