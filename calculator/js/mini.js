@@ -1,10 +1,3 @@
-//////////////////////////////////
-//  By Ion Rosgrim
-//  https://github.com/irosgrim
-/////////////////////////////////
-
-// global variables/constants
-// DOM queries
 
 //result box
 const popup = document.getElementById('popup');
