@@ -1,9 +1,6 @@
 //////////////////////////////////
 //  By Ion Rosgrim
-//  Webbutveckling 2, Uppdrag 3
-//  Miniräknare
 //  https://github.com/irosgrim
-//  January, 2019
 /////////////////////////////////
 
 // global variables/constants
