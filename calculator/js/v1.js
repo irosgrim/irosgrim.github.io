@@ -1,8 +1,6 @@
 //////////////////////////////////
 //  By Ion Rosgrim
-//  Webbutveckling 2, Uppdrag 3
 //  Calculator V1
-//  https://github.com/irosgrim
 //  February, 2019
 /////////////////////////////////
 
