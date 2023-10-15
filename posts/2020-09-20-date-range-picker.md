@@ -10,6 +10,6 @@ A simple date range picker component, made with Vue.js. Inspired by Airbnb date 
 
 [https://github.com/irosgrim/date-picker](https://github.com/irosgrim/date-picker)
 
-### In action
+### In action:
 
 <iframe src="https://irosgrim.dev/date-picker/dist/" frameborder="0" width="800" height="750"></iframe>

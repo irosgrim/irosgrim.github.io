@@ -24,7 +24,7 @@ works equally well just with a `textarea` element.
 
 [https://github.com/irosgrim/js-playground](https://github.com/irosgrim/js-playground)
 
-### In action
+### In action:
 
 <iframe src="https://irosgrim.dev/js-playground/?code=Ly8gcGFzcyBxdWVyeSBwYXJhbSB0aGVtZT1kYXJrIG9yIHRoZW1lPWxpZ2h0IHRvIGNoYW5nZSB0aGVtZQpjb25zb2xlLmxvZygiSGVsbG8gd29ybGQhIik7CiA%3D" frameborder="0" width="100%" height="500"></iframe>
 

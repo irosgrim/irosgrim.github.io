@@ -11,6 +11,6 @@ Just a tic-tac-toe game experiment.
 
 [https://github.com/irosgrim/tic-tac-toe](https://github.com/irosgrim/tic-tac-toe)
 
-### In action but with 15 numbers instead
+### In action:
 
 <iframe src="https://irosgrim.dev/tic-tac-toe/" frameborder="0" style="width: 300px; height: 400px"></iframe>

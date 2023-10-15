@@ -16,6 +16,6 @@ As a child, one of the toys I had was a sliding-numbers puzzle. It consisted of 
 
 [https://github.com/irosgrim/sliding-numbers-puzzle](https://github.com/irosgrim/sliding-numbers-puzzle)
 
-### In action but with 15 numbers instead
+### In action but with 15 numbers instead:
 
 <iframe src="https://irosgrim.dev/sliding-numbers-puzzle/" frameborder="0" width="600" height="600"></iframe>
