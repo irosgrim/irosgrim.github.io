@@ -1,1 +1,206 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="shortcut icon" href="/favicon.ico"/><meta name="description" content="Ion Rosgrim, web development portfolio"/><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/><meta name="theme-color" content="#000000"/><link rel="manifest" href="/manifest.json"/><link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat:400,400i,500,700" rel="stylesheet"/><title>Ion Rosgrim, Front end developer</title><link href="/static/css/main.95438e72.chunk.css" rel="stylesheet"></head><body><form name="contact" netlify netlify-honeypot="bot-field" hidden><input name="name"/> <input type="email" name="email"/> <textarea name="message"></textarea></form><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(e){function r(r){for(var n,l,f=r[0],i=r[1],p=r[2],c=0,s=[];c<f.length;c++)l=f[c],Object.prototype.hasOwnProperty.call(o,l)&&o[l]&&s.push(o[l][0]),o[l]=0;for(n in i)Object.prototype.hasOwnProperty.call(i,n)&&(e[n]=i[n]);for(a&&a(r);s.length;)s.shift()();return u.push.apply(u,p||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,f=1;f<t.length;f++){var i=t[f];0!==o[i]&&(n=!1)}n&&(u.splice(r--,1),e=l(l.s=t[0]))}return e}var n={},o={1:0},u=[];function l(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,l),t.l=!0,t.exports}l.m=e,l.c=n,l.d=function(e,r,t){l.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},l.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},l.t=function(e,r){if(1&r&&(e=l(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(l.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)l.d(t,n,function(r){return e[r]}.bind(null,n));return t},l.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return l.d(r,"a",r),r},l.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},l.p="/";var f=this.webpackJsonpportfolio=this.webpackJsonpportfolio||[],i=f.push.bind(f);f.push=r,f=f.slice();for(var p=0;p<f.length;p++)r(f[p]);var a=i;t()}([])</script><script src="/static/js/2.a6bdf5c0.chunk.js"></script><script src="/static/js/main.bdea65c1.chunk.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ion Rosgrim </title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="header pixel-font">
+      <h1>Hello World!</h1>
+      <p>A site of random bits and pieces, by Ion Rosgrim</p>
+    </div>
+    <main>
+      <section class="posts">
+        <article>
+          <header>
+            <h2>No React.js and that's perfectly fine</h2>
+            <time datetime="2023-10-15">2023-10-15</time>
+          </header>
+          <div class="content">
+            <p>
+              There&#39;s no reason to avoid using just HTML, CSS, and JS. In
+              fact, most of the time, these are the only tools required to
+              create websites. That&#39;s why I decided against using any
+              front-end framework for this site. Instead, I opted to create all
+              the posts as Markdown files, which will be parsed upon pushing to
+              the repository using GitHub Actions.
+            </p>
+          </div>
+        </article>
+
+        <article>
+          <header>
+            <h2>A childhood game - Sliding numbers puzzle</h2>
+            <time datetime="2023-09-28">2023-09-28</time>
+          </header>
+          <div class="content">
+            <p>
+              As a child, one of the toys I had was a sliding-numbers puzzle. It
+              consisted of a simple plastic frame containing 8 numbered squares
+              that could move one spot at a time. To solve the puzzle, you had
+              to slide each square, one by one, into the free space until all
+              the numbers were in order:
+            </p>
+            <pre><code>1 2 3 
+4 5 6 
+7 8  
+</code></pre>
+            <h3>Link to source code:</h3>
+            <p>
+              <a href="https://github.com/irosgrim/sliding-numbers-puzzle"
+                >https://github.com/irosgrim/sliding-numbers-puzzle</a
+              >
+            </p>
+            <h3>In action but with 15 numbers instead</h3>
+            <iframe
+              src="https://irosgrim.dev/sliding-numbers-puzzle/"
+              frameborder="0"
+              width="600"
+              height="600"
+            ></iframe>
+          </div>
+        </article>
+
+        <article>
+          <header>
+            <h2>A JavaScript playground</h2>
+            <time datetime="2023-09-02">2023-09-02</time>
+          </header>
+          <div class="content">
+            <p>
+              I frequently turn to <a href="https://codepen.io/">Codepen</a> or
+              browser dev tools to swiftly test out a new idea.
+            </p>
+            <p>My requirements are straightforward:</p>
+            <ul>
+              <li>I want to draft JavaScript code quickly.</li>
+              <li>I want immediate visibility of the output.</li>
+              <li>I want to share my concept effortlessly.</li>
+              <li>I don&#39;t want to rely on specialized tools.</li>
+              <li>I want to embed it on any desired page.</li>
+              <li>
+                I want the flexibility to embed a code snippet and also edit it.
+              </li>
+              <li>It have to be super simple.</li>
+            </ul>
+            <p>
+              Since I also wanted some basic syntax highlighting, indentation,
+              themes, etc, I used
+              <a href="https://codemirror.net/">Codemirror</a> but the
+              playground works equally well just with a
+              <code>textarea</code> element.
+            </p>
+            <h3>Link to source code:</h3>
+            <p>
+              <a href="https://github.com/irosgrim/js-playground"
+                >https://github.com/irosgrim/js-playground</a
+              >
+            </p>
+            <h3>In action</h3>
+            <iframe
+              src="https://irosgrim.dev/js-playground/?code=Ly8gcGFzcyBxdWVyeSBwYXJhbSB0aGVtZT1kYXJrIG9yIHRoZW1lPWxpZ2h0IHRvIGNoYW5nZSB0aGVtZQpjb25zb2xlLmxvZygiSGVsbG8gd29ybGQhIik7CiA%3D"
+              frameborder="0"
+              width="100%"
+              height="500"
+            ></iframe>
+          </div>
+        </article>
+
+        <article>
+          <header>
+            <h2>Tic-Tac-Toe</h2>
+            <time datetime="2023-08-01">2023-08-01</time>
+          </header>
+          <div class="content">
+            <p>Just a tic-tac-toe game experiment.</p>
+            <h3>Link to source code:</h3>
+            <p>
+              <a href="https://github.com/irosgrim/tic-tac-toe"
+                >https://github.com/irosgrim/tic-tac-toe</a
+              >
+            </p>
+            <h3>In action but with 15 numbers instead</h3>
+            <iframe
+              src="https://irosgrim.dev/tic-tac-toe/"
+              frameborder="0"
+              style="width: 300px; height: 400px"
+            ></iframe>
+          </div>
+        </article>
+
+        <article>
+          <header>
+            <h2>A game of snek</h2>
+            <time datetime="2022-12-18">2022-12-18</time>
+          </header>
+          <div class="content">
+            <p>
+              One of the first games I played on a mobile phone was
+              <code>The snake</code>. It was on Nokia phone, long time ago. Here
+              is an exercise where I wanted to apply a few ideas:
+            </p>
+            <ul>
+              <li>
+                having obstacles generated from <code>.png</code>
+                <a href="https://github.com/irosgrim/snek/tree/main/src/imgs"
+                  >files</a
+                >:
+              </li>
+              <li>
+                being able to destroy obstacles. You get &quot;bullets&quot; by
+                eating specific type of food
+              </li>
+            </ul>
+            <p>
+              Of course, like most of the stuff on this page, unpolished,
+              unfinished.
+            </p>
+            <h3>Link to source code:</h3>
+            <p>
+              <a href="https://github.com/irosgrim/snek"
+                >https://github.com/irosgrim/snek</a
+              >
+            </p>
+            <h3>In action</h3>
+            <p>Refreshing the page will generate new obstacles.</p>
+            <p>Shoot by pressing <kbd>Space</kbd> key.</p>
+            <iframe
+              src="https://irosgrim.dev/snek/"
+              frameborder="0"
+              width="600"
+              height="600"
+            ></iframe>
+          </div>
+        </article>
+
+        <article>
+          <header>
+            <h2>Date range picker component</h2>
+            <time datetime="2020-09-20">2020-09-20</time>
+          </header>
+          <div class="content">
+            <p>
+              A simple date range picker component, made with Vue.js. Inspired
+              by Airbnb date picker.
+            </p>
+            <h3>Link to source code:</h3>
+            <p>
+              <a href="https://github.com/irosgrim/date-picker"
+                >https://github.com/irosgrim/date-picker</a
+              >
+            </p>
+            <h3>In action</h3>
+            <iframe
+              src="https://irosgrim.dev/date-picker/dist/"
+              frameborder="0"
+              width="800"
+              height="750"
+            ></iframe>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "build",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "dependencies": {
+    "marked": "9.1.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  }
+}

@@ -1,3 +1,0 @@
-# Huddle
-Huddle landing page
-
