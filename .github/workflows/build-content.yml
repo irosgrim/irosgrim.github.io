@@ -19,15 +19,21 @@ jobs:
         node-version: "16"
 
     - name: Install dependencies
-      run: npm install
+      run: |
+        cd build
+        yarn
+        cd ..
 
     - name: Build posts
-      run: yarn build
+      run: |
+        cd build
+        npm run build
+        cd ..
 
     - name: Commit and push changes
       run: |
         git config user.name "GitHub Actions Bot"
         git config user.email "<email@example.com>"
         git add -A
-        git commit -m "Build posts" || echo "No changes"
+        git commit -m "Build posts" || echo "No changes to commit"
         git push
