@@ -71,6 +71,99 @@
 
         <article>
           <header>
+            <h2>A React.js state manager</h2>
+            <time datetime="2023-09-23">2023-09-23</time>
+          </header>
+          <div class="content">
+            <p>
+              I wanted to see how easy/hard is to do a state manager that would
+              work with React.js. There is no reason for this to not work
+              equally well with any other front-end library. Is this an adequate
+              solution? I don&#39;t know but I successfully used it in some of
+              React.js experiments and had no noticeable issues. The code is
+              pretty straight forward and the idea is based on the
+              <code>Observer Pattern</code>.
+            </p>
+            <pre><code class="language-javascript">class Store {
+    constructor(state = {}) {
+        Object.defineProperty(this, &quot;state&quot;, {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: state
+        });
+        Object.defineProperty(this, &quot;listeners&quot;, {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: new Set()
+        });
+    }
+    subscribe(listener) {
+        this.listeners.add(listener);
+    }
+    unsubscribe(listener) {
+        this.listeners.delete(listener);
+    }
+    notify() {
+        this.listeners.forEach((listener) =&gt; listener(this.state));
+    }
+    setState(newState) {
+        this.state = { ...this.state, ...newState };
+        this.notify();
+    }
+    getState() {
+        return this.state;
+    }
+}
+</code></pre>
+            <p>And here is the React.js hook that links everything together:</p>
+            <pre><code class="language-javascript">const createHook = (store, compareFn = shallowEqual) =&gt; {
+    return (selector) =&gt; {
+        const [state, setState] = useState(() =&gt; selector(store.getState()));
+        useEffect(() =&gt; {
+            const listener = (newState) =&gt; {
+                const newSelectedState = selector(newState);
+                if (!compareFn(newSelectedState, state)) {
+                    setState(newSelectedState);
+                }
+            };
+            store.subscribe(listener);
+            return () =&gt; {
+                store.unsubscribe(listener);
+            };
+        }, [selector, state]);
+        return state;
+    };
+};
+</code></pre>
+            <p>Check the source code for more details</p>
+            <h3>Link to source code:</h3>
+            <p>
+              <a href="https://github.com/irosgrim/react-state-manager"
+                >https://github.com/irosgrim/react-state-manager</a
+              >
+            </p>
+            <p>I decided to make it into a <code>npm package</code>.</p>
+            <h3>Link to package:</h3>
+            <p>
+              <a
+                href="https://www.npmjs.com/package/@irosgrim/react-state-manager"
+                >https://www.npmjs.com/package/@irosgrim/react-state-manager</a
+              >
+            </p>
+            <h3>In action:</h3>
+            <iframe
+              src="https://irosgrim.dev/state-management/"
+              frameborder="0"
+              width="600"
+              height="600"
+            ></iframe>
+          </div>
+        </article>
+
+        <article>
+          <header>
             <h2>A JavaScript playground</h2>
             <time datetime="2023-09-02">2023-09-02</time>
           </header>
