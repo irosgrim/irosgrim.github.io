@@ -14,7 +14,7 @@ As a child, one of the toys I had was a sliding-numbers puzzle. It consisted of 
 
 ### Link to source code:
 
-[https://github.com/irosgrim/sliding-numbers-puzzle](https://github.com/irosgrim/sliding-numbers-puzzle)
+[sliding-numbers-puzzle](https://github.com/irosgrim/sliding-numbers-puzzle)
 
 ### In action but with 15 numbers instead:
 

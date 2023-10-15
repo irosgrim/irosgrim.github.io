@@ -8,7 +8,7 @@ A simple date range picker component, made with Vue.js. Inspired by Airbnb date 
 
 ### Link to source code:
 
-[https://github.com/irosgrim/date-picker](https://github.com/irosgrim/date-picker)
+[date-picker](https://github.com/irosgrim/date-picker)
 
 ### In action:
 

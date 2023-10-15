@@ -13,13 +13,13 @@ The code is pretty straight forward and the idea is based on the `Observer Patte
 Check the source code for more details
 
 ### Link to source code:
-[https://github.com/irosgrim/react-state-manager](https://github.com/irosgrim/react-state-manager)
+[react-state-manager](https://github.com/irosgrim/react-state-manager)
 
 
 I decided to make it into a `npm package`.
 
 ### Link to package:
-[https://www.npmjs.com/package/@irosgrim/react-state-manager](https://www.npmjs.com/package/@irosgrim/react-state-manager)
+[NPM react-state-manager](https://www.npmjs.com/package/@irosgrim/react-state-manager)
 
 
 ### In action:

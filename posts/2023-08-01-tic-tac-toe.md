@@ -9,7 +9,7 @@ Just a tic-tac-toe game experiment.
 
 ### Link to source code:
 
-[https://github.com/irosgrim/tic-tac-toe](https://github.com/irosgrim/tic-tac-toe)
+[tic-tac-toe](https://github.com/irosgrim/tic-tac-toe)
 
 ### In action:
 

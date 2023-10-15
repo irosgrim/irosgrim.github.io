@@ -38,24 +38,20 @@ h1,h2,h3,h4,h5 {
     margin: 0;
 }
 
+h1 {
+  font-size: 1rem;
+}
+
 body {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0.5rem;
+  padding-top: 0.5rem;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 13px;
+  font-size: 0.85rem;
   color: #4d4d4d;
   background-color: #f8f7f7;
 
 }
-
-@media (min-width: 480px) {
-  body {
-    padding: 1rem;
-    font-size: 1rem;
-  }
-}
-
 
 nav {
   display: flex;
@@ -85,7 +81,7 @@ nav a[aria-current='page'] {
 }
 
 main {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 h1 {
@@ -112,7 +108,7 @@ main {
 
 .posts article {
   width: 100%;
-  padding: 1rem;
+  padding: 0.5rem;
   background-color: #ffffff;
 }
 
@@ -131,6 +127,24 @@ main {
     margin-left: 1rem;
 }
 
+.header p {
+  font-size: 0.75rem;
+}
+
 iframe {
   width: 100%;
+}
+
+@media (min-width: 480px) {
+  body {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+  }
+  main, .header p, .posts article {
+    padding: 1rem;
+  }
 }

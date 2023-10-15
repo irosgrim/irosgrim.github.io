@@ -22,7 +22,7 @@ works equally well just with a `textarea` element.
 
 ### Link to source code:
 
-[https://github.com/irosgrim/js-playground](https://github.com/irosgrim/js-playground)
+[js-playground](https://github.com/irosgrim/js-playground)
 
 ### In action:
 
