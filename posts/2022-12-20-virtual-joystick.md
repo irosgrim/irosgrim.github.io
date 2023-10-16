@@ -17,4 +17,4 @@ The only game i'm using this code in is my [Snek game](https://irosgrim.github.i
 
 NOTE: only working on mobile devices.
 
-<iframe src="https://irosgrim.github.io/virtual-joystick" frameborder="0" width="600" height="600"></iframe>
+<iframe src="https://irosgrim.github.io/virtual-joystick" frameborder="0" width="600" height="600" loading="lazy"></iframe>

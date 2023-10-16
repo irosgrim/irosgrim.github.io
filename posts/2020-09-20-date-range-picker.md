@@ -12,4 +12,4 @@ A simple date range picker component, made with Vue.js. Inspired by Airbnb date 
 
 ### In action:
 
-<iframe src="https://irosgrim.github.io/date-picker/dist/" frameborder="0" width="800" height="750"></iframe>
+<iframe src="https://irosgrim.github.io/date-picker/dist/" frameborder="0" width="800" height="750" loading="lazy"></iframe>

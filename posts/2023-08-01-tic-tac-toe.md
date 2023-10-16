@@ -13,4 +13,4 @@ Just a tic-tac-toe game experiment.
 
 ### In action:
 
-<iframe src="https://irosgrim.github.io/tic-tac-toe/" frameborder="0" style="width: 300px; height: 400px"></iframe>
+<iframe src="https://irosgrim.github.io/tic-tac-toe/" frameborder="0" style="width: 300px; height: 400px" loading="lazy"></iframe>

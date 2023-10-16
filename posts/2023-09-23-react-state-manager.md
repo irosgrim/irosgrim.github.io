@@ -24,4 +24,4 @@ I decided to make it into a `npm package`.
 
 ### In action:
 
-<iframe src="https://irosgrim.github.io/state-management/" frameborder="0" width="600" height="600"></iframe>
+<iframe src="https://irosgrim.github.io/state-management/" frameborder="0" width="600" height="600" loading="lazy"></iframe>

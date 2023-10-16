@@ -16,4 +16,4 @@ In JavaScript, many (including me), are tempted to use the `eval` function, give
 
 ### In action:
 
-<iframe src="https://irosgrim.github.io/calculator/" frameborder="0" width="600" height="600"></iframe>
+<iframe src="https://irosgrim.github.io/calculator/" frameborder="0" width="600" height="600" loading="lazy"></iframe>
