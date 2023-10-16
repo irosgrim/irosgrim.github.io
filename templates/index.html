@@ -16,5 +16,19 @@
             <!-- POSTS -->
         </section>
     </main>
+    <script>
+        document.querySelectorAll('.iframe-placeholder').forEach(placeholder => {
+            placeholder.querySelector('button').addEventListener('click', function() {
+                const iframe = document.createElement('iframe');
+                iframe.src = placeholder.getAttribute('data-src');
+                // iframe.width = "800";
+                iframe.height = "600";
+                iframe.frameBorder = "0";
+                iframe.loading = "lazy";
+
+                placeholder.replaceWith(iframe);
+            });
+        });
+    </script>
 </body>
 </html>

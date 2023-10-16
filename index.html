@@ -60,13 +60,12 @@
               >
             </p>
             <h3>In action but with 15 numbers instead:</h3>
-            <iframe
-              src="https://irosgrim.github.io/sliding-numbers-puzzle/"
-              frameborder="0"
-              width="600"
-              height="600"
-              loading="lazy"
-            ></iframe>
+            <div
+              class="iframe-placeholder"
+              data-src="https://irosgrim.github.io/sliding-numbers-puzzle/"
+            >
+              <button>Show</button>
+            </div>
           </div>
         </article>
 
@@ -101,13 +100,12 @@
               >
             </p>
             <h3>In action:</h3>
-            <iframe
-              src="https://irosgrim.github.io/state-management/"
-              frameborder="0"
-              width="600"
-              height="600"
-              loading="lazy"
-            ></iframe>
+            <div
+              class="iframe-placeholder"
+              data-src="https://irosgrim.github.io/state-management/"
+            >
+              <button>Show</button>
+            </div>
           </div>
         </article>
 
@@ -202,13 +200,12 @@
             </p>
             <h3>In action:</h3>
             <p>NOTE: only working on mobile devices.</p>
-            <iframe
-              src="https://irosgrim.github.io/virtual-joystick"
-              frameborder="0"
-              width="600"
-              height="600"
-              loading="lazy"
-            ></iframe>
+            <div
+              class="iframe-placeholder"
+              data-src="https://irosgrim.github.io/virtual-joystick"
+            >
+              <button>Show</button>
+            </div>
           </div>
         </article>
 
@@ -244,13 +241,12 @@
             <h3>In action:</h3>
             <p>Refreshing the page will generate new obstacles.</p>
             <p>Shoot by pressing <kbd>Space</kbd> key.</p>
-            <iframe
-              src="https://irosgrim.github.io/snek/"
-              frameborder="0"
-              width="600"
-              height="600"
-              loading="lazy"
-            ></iframe>
+            <div
+              class="iframe-placeholder"
+              data-src="https://irosgrim.github.io/snek/"
+            >
+              <button>Show</button>
+            </div>
           </div>
         </article>
 
@@ -284,13 +280,12 @@
               >
             </p>
             <h3>In action:</h3>
-            <iframe
-              src="https://irosgrim.github.io/calculator/"
-              frameborder="0"
-              width="600"
-              height="600"
-              loading="lazy"
-            ></iframe>
+            <div
+              class="iframe-placeholder"
+              data-src="https://irosgrim.github.io/calculator/"
+            >
+              <button>Show</button>
+            </div>
           </div>
         </article>
 
@@ -311,13 +306,12 @@
               NOTE: at the time I built this game, I did not take in
               consideration touch control so it only works with a keyboard.
             </p>
-            <iframe
-              src="https://irosgrim.github.io/invaders/"
-              frameborder="0"
-              width="600"
-              height="600"
-              loading="lazy"
-            ></iframe>
+            <div
+              class="iframe-placeholder"
+              data-src="https://irosgrim.github.io/invaders/"
+            >
+              <button>Show</button>
+            </div>
           </div>
         </article>
 
@@ -336,16 +330,33 @@
               <a href="https://github.com/irosgrim/date-picker">date-picker</a>
             </p>
             <h3>In action:</h3>
-            <iframe
-              src="https://irosgrim.github.io/date-picker/dist/"
-              frameborder="0"
-              width="800"
-              height="750"
-              loading="lazy"
-            ></iframe>
+            <div
+              class="iframe-placeholder"
+              data-src="https://irosgrim.github.io/date-picker/dist/"
+            >
+              <button>Show</button>
+            </div>
           </div>
         </article>
       </section>
     </main>
+    <script>
+      document
+        .querySelectorAll(".iframe-placeholder")
+        .forEach((placeholder) => {
+          placeholder
+            .querySelector("button")
+            .addEventListener("click", function () {
+              const iframe = document.createElement("iframe");
+              iframe.src = placeholder.getAttribute("data-src");
+              // iframe.width = "800";
+              iframe.height = "600";
+              iframe.frameBorder = "0";
+              iframe.loading = "lazy";
+
+              placeholder.replaceWith(iframe);
+            });
+        });
+    </script>
   </body>
 </html>

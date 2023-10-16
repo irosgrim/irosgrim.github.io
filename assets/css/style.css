@@ -15,15 +15,7 @@ a, a:visited {
 }
 
 a:hover {
-  position: relative;
-}
-
-a:hover::after {
-  position: absolute;
-  content: '.';
-  height: 8px;
-  width: 2px;
-  bottom: 10px;
+  text-decoration: underline;
 }
 
 .pixel-font {
@@ -146,4 +138,13 @@ iframe {
   main, .header p, .posts article {
     padding: 1rem;
   }
+}
+
+.iframe-placeholder button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #ffffff;
+  outline: none;
+  border: 1px solid #ededed;
+  cursor: pointer;
 }
