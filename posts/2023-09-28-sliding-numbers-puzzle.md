@@ -18,4 +18,4 @@ As a child, one of the toys I had was a sliding-numbers puzzle. It consisted of 
 
 ### In action but with 15 numbers instead:
 
-[preview](https://irosgrim.github.io/sliding-numbers-puzzle/)
+<iframe src="https://irosgrim.github.io/sliding-numbers-puzzle/" frameborder="0" height="600" loading="lazy"></iframe>

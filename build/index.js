@@ -1,18 +1,22 @@
-const fs = require('node:fs/promises');
-const marked = require('marked');
-const prettier = require('prettier');
+const fs = require("node:fs/promises");
+const marked = require("marked");
+const prettier = require("prettier");
 
-const markdownDir = '../posts';
-const outputDir = '../';
-const templateDir = '../templates';
+const markdownDir = "../posts";
+const outputDir = "../";
+const templateDir = "../templates";
 
-const generatePreviewIframe = async (url) => {
-    const previewTemplate = await fs.readFile(`${templateDir}/preview.html`, 'utf8');
-    return previewTemplate.replace('{{url}}', url)};
+const populateTemplate = (template, replacements) => {
+    for (let placeholder in replacements) {
+        const regex = new RegExp(`{{${placeholder}}}`, 'g');
+        template = template.replace(regex, replacements[placeholder])
+    }
+    return template;
+}
 
 const getMarkdownFiles = async () => {
     const files = await fs.readdir(markdownDir);
-    return files.filter(file => file.endsWith('.md'));
+    return files.filter(file => file.endsWith(".md"));
 }
 
 const parseMdContent =  async (data) => {
@@ -20,14 +24,14 @@ const parseMdContent =  async (data) => {
     const metadata = {};
 
     if (match) {
-        match[1].split('\n').forEach(line => {
-            const [key, ...value] = line.split(':');
-            metadata[key.trim()] = value.join(':').trim();
+        match[1].split("\n").forEach(line => {
+            const [key, ...value] = line.split(":");
+            metadata[key.trim()] = value.join(":").trim();
         });
     }
-    
+    const previewTemplate = await fs.readFile(`${templateDir}/preview.html`, "utf8");
     const previewRegex = /\[preview\]\(([^)]+)\)/g;
-    let content = data.replace(/---\n[\s\S]+?\n---/, '');
+    let content = data.replace(/---\n[\s\S]+?\n---/, "");
 
     const urls = [];
     let matchPreview;
@@ -35,7 +39,7 @@ const parseMdContent =  async (data) => {
         urls.push(matchPreview[1]);
     }
      for (const url of urls) {
-        const iframe = await generatePreviewIframe(url);
+        const iframe = populateTemplate(previewTemplate, {url});
         content = content.replace(`[preview](${url})`, iframe);
     }
     return {
@@ -46,18 +50,19 @@ const parseMdContent =  async (data) => {
 
 const buildSite = async () => {
     const markdownFiles = await getMarkdownFiles();
-    console.log('Building posts');
+    const postTemplate = await fs.readFile(`${templateDir}/post.html`, "utf8");
+
+    console.log("Building posts");
     console.log(markdownFiles);
     
     const mdFiles = [];
     for (const file of markdownFiles) {
-        const fileData = await fs.readFile(`${markdownDir}/${file}`, 'utf-8');
+        const fileData = await fs.readFile(`${markdownDir}/${file}`, "utf-8");
         const { title, date, content } = await parseMdContent(fileData);
         
         const htmlContent = marked.parse(content);
         mdFiles.push({title, date, content: htmlContent});
     }
-    
     
     const sortedPosts = mdFiles.sort((a, b) => {
         const dateA = new Date(a.date);
@@ -65,28 +70,21 @@ const buildSite = async () => {
         return dateB - dateA;
     });
     
-    let blogListHTML = '';
+    let blogListHTML = "";
+    console.log("Sorted posts:")
+
     for (const post of sortedPosts) {
+        blogListHTML += populateTemplate(postTemplate, post);
         console.log(post.date);
-        blogListHTML += `
-            <article>
-                <header>
-                    <h2>${post.title}</h2>
-                    <time datetime="${post.date}">${post.date}</time>
-                </header>
-                <div class="content">${post.content}</div>
-            </article>
-        `;
     }
 
-    const template = await fs.readFile(`${templateDir}/index.html`, 'utf-8');
-    const finalHtml = template.replace('<!-- POSTS -->', blogListHTML);
+    const template = await fs.readFile(`${templateDir}/index.html`, "utf-8");
+    const finalHtml = template.replace("<!-- POSTS -->", blogListHTML);
     const formattedHtml = await prettier.format(finalHtml, { parser: "html" });
     await fs.writeFile(`${outputDir}/index.html`, formattedHtml);
 }
 
 buildSite().catch(err => {
-    
     console.error(err);
     process.exit(1);
 });
