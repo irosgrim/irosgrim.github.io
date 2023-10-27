@@ -16,5 +16,5 @@ Creating maps by hand was a painful process, so it made sense to built a level e
 
 ### In action:
 
-<iframe src="https://irosgrim.github.io/sokoban" frameborder="0" width="100%" height="500" loading="lazy"></iframe>
+<iframe src="https://irosgrim.github.io/sokoban" frameborder="0" width="400" height="400" loading="lazy"></iframe>
 
