@@ -9,6 +9,13 @@ In tribute to this classic puzzle game, I've developed my own version.
 
 Creating maps by hand was a painful process, so it made sense to built a level editor as well.
 
+I used this mini game as an opportunity to experiment with:
+
+ - event bus architecture
+ - scaling canvas
+ - working with sprites
+ - input control
+
 
 ### Link to source code:
 
