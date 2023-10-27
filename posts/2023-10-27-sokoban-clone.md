@@ -5,9 +5,9 @@ author: "ion rosgrim"
 ---
 
 [Sokoban](https://en.wikipedia.org/wiki/Sokoban) is one of the first games I had installed on my first PC and I remember having lots of fun playing it.
-As a homage to a great puzzle, here is my own implementation.
+In tribute to this classic puzzle game, I've developed my own version.
 
-Since I found it was painful to create the maps/levels manually, I decided to make a level editor too.
+Creating maps by hand was a painful process, so it made sense to built a level editor as well.
 
 
 ### Link to source code:
