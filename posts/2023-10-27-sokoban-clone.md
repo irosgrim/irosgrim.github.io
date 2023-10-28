@@ -23,5 +23,5 @@ I used this mini game as an opportunity to experiment with:
 
 ### In action:
 
-<iframe src="https://irosgrim.github.io/sokoban" frameborder="0" width="400" height="400" loading="lazy" style="max-width:400px"></iframe>
+<iframe src="https://irosgrim.github.io/sokoban" frameborder="0" width="300" height="300" loading="lazy" style="max-width:300px"></iframe>
 
