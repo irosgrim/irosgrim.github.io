@@ -15,6 +15,61 @@
       <section class="posts">
         <article>
           <header>
+            <h2>Frontend API mocking strategy</h2>
+            <time datetime="2025-06-04">2025-06-04</time>
+          </header>
+          <div class="content">
+            <p>
+              Is there a way to build a fully functioning frontend that consumes
+              APIs but doesn&#39;t break when there&#39;s no connection or the
+              server is down?
+            </p>
+            <p>
+              Or maybe you want to run automated tests for your frontend while
+              keeping it completely decoupled from any backend?
+            </p>
+            <p>
+              I&#39;ve spent countless hours trying all kinds of solutions and
+              while I’ve already achieved this through other means, I’ve found
+              that the hardest part is always generating the data because most
+              of the time, data from one API call is tightly coupled with data
+              from others, so you end up needing logic to maintain those
+              relationships.
+            </p>
+            <p>
+              As an exercise, I built a request recorder tool that acts as a
+              transparent proxy between the frontend and backend APIs. It can
+              record actual fetch requests, store them in
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API"
+                >IndexedDB</a
+              >, and then replay them from storage when running in
+              &quot;fake&quot; mode.
+            </p>
+            <p>
+              This could be extended further, for example, the request
+              interceptor could fake (<a href="https://fakerjs.dev/"
+                >faker.js?</a
+              >) specific properties (not implemented yet).
+            </p>
+            <p>The recordings can be exported/imported as JSON files.</p>
+            <h3>Link to source code and example:</h3>
+            <p>
+              <a href="https://github.com/irosgrim/request-recorder/"
+                >request-recorder</a
+              >
+            </p>
+            <h3>See it in action:</h3>
+            <p>
+              <a href="https://irosgrim.github.io/request-recorder/"
+                >Basic React.js app using the Pokemon API</a
+              >
+            </p>
+            <p><a href="https://pokeapi.co">https://pokeapi.co</a></p>
+          </div>
+        </article>
+        <article>
+          <header>
             <h2>DB Diagram app</h2>
             <time datetime="2023-12-21">2023-12-21</time>
           </header>
