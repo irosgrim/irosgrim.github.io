@@ -20,11 +20,11 @@ const getMarkdownFiles = async () => {
 }
 
 const parseMdContent =  async (data) => {
-    const match = /---\n([\s\S]+?)\n---/.exec(data);
+    const metadataMatch = /---\n([\s\S]+?)\n---/.exec(data);
     const metadata = {};
 
-    if (match) {
-        match[1].split("\n").forEach(line => {
+    if (metadataMatch) {
+        metadataMatch[1].split("\n").forEach(line => {
             const [key, ...value] = line.split(":");
             metadata[key.trim()] = value.join(":").trim();
         });
